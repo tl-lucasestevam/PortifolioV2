@@ -1,15 +1,7 @@
-import {
-  HamburgerMenu,
-  HeaderContainer,
-  ListItems,
-  MobileListItems,
-  MobileNavbarContainer,
-  MobileNavLink,
-  NavLink,
-} from './styles'
-import { useState } from 'react'
+import { MobileNavbar } from './components/MobileNavbar'
+import { HeaderContainer, ListItems, NavLink } from './styles'
 
-const navbarData = [
+export const navbarData = [
   {
     title: 'Home',
     href: '#',
@@ -33,8 +25,6 @@ const navbarData = [
 ]
 
 export function Header() {
-  const [isOpen, setOpen] = useState(false)
-
   return (
     <HeaderContainer className="container">
       <ListItems>
@@ -47,19 +37,7 @@ export function Header() {
         })}
       </ListItems>
 
-      <MobileNavbarContainer>
-        <HamburgerMenu toggled={isOpen} toggle={setOpen} />
-
-        <MobileListItems toggled={isOpen}>
-          {navbarData.map((link, index) => {
-            return (
-              <MobileNavLink toggled={isOpen} href={link.href} key={index}>
-                {link.title}
-              </MobileNavLink>
-            )
-          })}
-        </MobileListItems>
-      </MobileNavbarContainer>
+      <MobileNavbar />
     </HeaderContainer>
   )
 }
