@@ -22,13 +22,14 @@ export const globalStyles = globalCss({
   },
 
   '.container': {
-    maxWidth: 1120,
-    width: '100%',
+    maxWidth: '79rem',
     margin: '0 auto',
+    padding: '1.5rem',
   },
 
   'body, input, textarea, button': {
     fontWeight: 400,
+    overflow: 'hidden',
   },
 
   button: {

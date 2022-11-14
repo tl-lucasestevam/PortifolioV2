@@ -2,7 +2,7 @@ import { styled } from '../../styles'
 import Link from 'next/link'
 
 export const HeaderContainer = styled('header', {
-  padding: '4.8rem 3rem',
+  padding: '4.8rem 1.5rem',
 })
 
 export const ListItems = styled('ul', {
