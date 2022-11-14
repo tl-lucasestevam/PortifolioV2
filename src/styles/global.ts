@@ -21,11 +21,26 @@ export const globalStyles = globalCss({
     color: '$gray300',
   },
 
+  '.container': {
+    maxWidth: 1120,
+    width: '100%',
+    margin: '0 auto',
+  },
+
   'body, input, textarea, button': {
     fontWeight: 400,
   },
 
   button: {
     cursor: 'pointer',
+  },
+
+  ul: {
+    listStyle: 'none',
+  },
+
+  a: {
+    textDecoration: 'none',
+    color: '$gray300',
   },
 })
