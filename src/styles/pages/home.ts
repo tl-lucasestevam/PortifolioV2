@@ -91,3 +91,8 @@ export const Squares = styled('div', {
     top: 60,
   },
 })
+
+export const BodyTest = styled('div', {
+  display: 'block',
+  height: 1000,
+})

@@ -19,7 +19,7 @@ export const FrameLanguageContainer = styled('button', {
   justifyContent: 'center',
   gap: 10,
 
-  position: 'absolute',
+  position: 'fixed',
   bottom: '1.5rem',
   right: '1.5rem',
   padding: '0.75rem',

@@ -4,6 +4,7 @@ import { ArrowRight } from 'phosphor-react'
 import { Button } from '../Components/Button'
 import { DefaultLayout } from '../Layouts/DefaultLayout'
 import {
+  BodyTest,
   DescriptionSide,
   ImageSide,
   IntroContainer,
@@ -19,7 +20,12 @@ export default function Home() {
   return (
     <DefaultLayout>
       <IntroContainer className="container">
-        <DescriptionSide>
+        <DescriptionSide
+          data-aos="fade-up"
+          data-aos-delay="300"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+        >
           <TextBox>
             <div>
               <h1>
@@ -39,16 +45,36 @@ export default function Home() {
           </TextBox>
         </DescriptionSide>
         <ImageSide>
-          <Shape>
-            <Squares className="left-bottom">
+          <Shape
+            data-aos="fade-up"
+            data-aos-delay="500"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
+            <Squares
+              className="left-bottom"
+              data-aos="fade-up"
+              data-aos-offset="1"
+              data-aos-delay="900"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            >
               <Image src={reactLogo} width={82} height={73.02} alt="" />
             </Squares>
-            <Squares className="right-top">
+            <Squares
+              className="right-top"
+              data-aos="fade-up"
+              data-aos-offset="1"
+              data-aos-delay="1300"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            >
               <Image src={nodeLogo} width={62.82} height={77.82} alt="" />
             </Squares>
           </Shape>
         </ImageSide>
       </IntroContainer>
+      <BodyTest />
     </DefaultLayout>
   )
 }
