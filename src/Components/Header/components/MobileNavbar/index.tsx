@@ -1,3 +1,4 @@
+import { useTranslation } from 'next-i18next'
 import { useState } from 'react'
 import { navbarData } from '../..'
 import {
@@ -9,6 +10,8 @@ import {
 
 export function MobileNavbar() {
   const [isOpen, setOpen] = useState(false)
+  const { t: translate } = useTranslation('navbar')
+
   return (
     <MobileNavbarContainer>
       <HamburgerMenu toggled={isOpen} toggle={setOpen} />
@@ -17,7 +20,7 @@ export function MobileNavbar() {
         {navbarData.map((link, index) => {
           return (
             <MobileNavLink toggled={isOpen} href={link.href} key={index}>
-              {link.title}
+              {translate(link.title)}
             </MobileNavLink>
           )
         })}

@@ -1,13 +1,11 @@
 import type { AppProps } from 'next/app'
-import { DefaultLayout } from '../Layouts/DefaultLayout'
 import { globalStyles } from '../styles/global'
+import { appWithTranslation } from 'next-i18next'
 
 globalStyles()
 
-export default function App({ Component, pageProps }: AppProps) {
-  return (
-    <DefaultLayout>
-      <Component {...pageProps} />
-    </DefaultLayout>
-  )
+export function App({ Component, pageProps }: AppProps) {
+  return <Component {...pageProps} />
 }
+
+export default appWithTranslation(App)
