@@ -1,5 +1,5 @@
 {
-    "Title": "Eu sou David, um Desenvolvedor Web",
+    "Title": "I’m David, a <span>Web Developer</span>",
     "Description": "Lorem ipsum dolor sit amet consectetur adipiscing elit leo quis ullamcorper quis id elementum convallis lacus gravida.",
-    "ButtonTitle": "Ver mais"
+    "ButtonTitle": "See more"
 }

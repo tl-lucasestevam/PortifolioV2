@@ -15,8 +15,12 @@ import {
 
 import reactLogo from '../assets/react.svg'
 import nodeLogo from '../assets/node.svg'
+import { useTranslation } from 'next-i18next'
+import parse from 'html-react-parser'
 
 export default function Home() {
+  const { t: translate } = useTranslation(['home'])
+
   return (
     <DefaultLayout>
       <IntroContainer className="container">
@@ -28,9 +32,7 @@ export default function Home() {
         >
           <TextBox>
             <div>
-              <h1>
-                I’m David, a <span>Web Developer</span>
-              </h1>
+              <h1>{parse(translate('Title'))}</h1>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipiscing elit leo quis
                 ullamcorper quis id elementum convallis lacus gravida.
@@ -39,7 +41,7 @@ export default function Home() {
 
             <Button
               bg="outlined"
-              text="See more"
+              text={translate('ButtonTitle')}
               icon={<ArrowRight size={24} weight="bold" />}
             />
           </TextBox>

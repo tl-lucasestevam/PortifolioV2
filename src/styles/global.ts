@@ -9,6 +9,8 @@ export const globalStyles = globalCss({
   '*': {
     margin: 0,
     padding: 0,
+    scrollbarWidth: 'thin',
+    scrollbarColor: 'blue blue',
   },
 
   html: {
@@ -44,5 +46,18 @@ export const globalStyles = globalCss({
   a: {
     textDecoration: 'none',
     color: '$gray300',
+  },
+
+  '*::-webkit-scrollbar': {
+    width: '5px',
+  },
+
+  '*::-webkit-scrollbar-track': {
+    background: '$gray700',
+  },
+
+  '*::-webkit-scrollbar-thumb': {
+    backgroundColor: '$gray300',
+    borderRadius: '20px',
   },
 })

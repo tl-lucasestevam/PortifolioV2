@@ -16,7 +16,7 @@ import { useState } from 'react'
 
 export function FrameLanguage() {
   const [open, setOpen] = useState(false)
-  const { t: translate } = useTranslation('common')
+  const { t: translate } = useTranslation(['common'])
 
   function handleCloseModal() {
     setOpen(false)

@@ -24,7 +24,7 @@ export const TextBox = styled('div', {
   flexDirection: 'column',
   gap: '2rem',
 
-  width: '26rem',
+  width: '28rem',
   overflowWrap: 'break-word',
 
   div: {
@@ -35,10 +35,9 @@ export const TextBox = styled('div', {
 
   h1: {
     fontSize: '$3xl',
+    width: '31rem',
     fontWeight: 800,
   },
-
-  p: {},
 
   span: {
     color: '$green300',

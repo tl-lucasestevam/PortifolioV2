@@ -4,12 +4,13 @@ import { getCssText } from '../styles'
 
 export default function Document() {
   return (
-    <Html>
+    <Html className="notranslate" translate="no">
       <Head>
         <style
           id="stitches"
           dangerouslySetInnerHTML={{ __html: getCssText() }}
         />
+        <meta name="google" content="notranslate" />
       </Head>
       <body>
         <Main />
