@@ -4,6 +4,7 @@ import {
   FrameLanguageContainer,
   LanguageContent,
   LanguageLink,
+  LanguageOverlay,
 } from './styles'
 import * as Dialog from '@radix-ui/react-dialog'
 import Image from 'next/image'
@@ -31,6 +32,7 @@ export function FrameLanguage() {
       </Dialog.Trigger>
 
       <Dialog.Portal>
+        <LanguageOverlay />
         <LanguageContent>
           <CloseButton asChild>
             <X size={24} weight="bold" />
