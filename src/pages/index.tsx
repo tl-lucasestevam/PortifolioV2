@@ -23,7 +23,7 @@ export default function Home() {
         <DescriptionSide
           data-aos="fade-up"
           data-aos-delay="300"
-          data-aos-duration="1000"
+          data-aos-duration="800"
           data-aos-easing="ease-in-out"
         >
           <TextBox>
@@ -47,16 +47,16 @@ export default function Home() {
         <ImageSide>
           <Shape
             data-aos="fade-up"
-            data-aos-delay="500"
-            data-aos-duration="1000"
+            data-aos-delay="400"
+            data-aos-duration="800"
             data-aos-easing="ease-in-out"
           >
             <Squares
               className="left-bottom"
               data-aos="fade-up"
               data-aos-offset="1"
-              data-aos-delay="900"
-              data-aos-duration="1000"
+              data-aos-delay="500"
+              data-aos-duration="800"
               data-aos-easing="ease-in-out"
             >
               <Image src={reactLogo} width={82} height={73.02} alt="" />
@@ -65,8 +65,8 @@ export default function Home() {
               className="right-top"
               data-aos="fade-up"
               data-aos-offset="1"
-              data-aos-delay="1300"
-              data-aos-duration="1000"
+              data-aos-delay="500"
+              data-aos-duration="1200"
               data-aos-easing="ease-in-out"
             >
               <Image src={nodeLogo} width={62.82} height={77.82} alt="" />
@@ -82,10 +82,12 @@ export default function Home() {
 export async function getStaticProps({ locale }: any) {
   return {
     props: {
-      ...(await serverSideTranslations(locale, ['common', 'navbar'], null, [
-        'en',
-        'pt-BR',
-      ])),
+      ...(await serverSideTranslations(
+        locale,
+        ['common', 'navbar', 'home'],
+        null,
+        ['en', 'pt-BR'],
+      )),
     },
   }
 }
