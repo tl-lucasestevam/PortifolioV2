@@ -5,7 +5,7 @@ export const ButtonBase = styled('button', {
   height: 50,
   borderRadius: 10,
   fontSize: '$md',
-  fontWeight: '500',
+  fontWeight: 500,
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',

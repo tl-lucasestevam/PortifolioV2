@@ -30,7 +30,7 @@ export const FrameLanguageContainer = styled('button', {
 
   color: '$gray300',
   fontSize: '$md',
-  fontWeight: '500',
+  fontWeight: 500,
 })
 
 export const LanguageOverlay = styled(Dialog.Overlay, {
