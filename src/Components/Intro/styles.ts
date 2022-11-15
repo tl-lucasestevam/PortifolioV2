@@ -1,4 +1,4 @@
-import { styled } from '..'
+import { styled } from '../../styles'
 
 export const IntroContainer = styled('div', {
   display: 'flex',
@@ -89,9 +89,4 @@ export const Squares = styled('div', {
     right: -55,
     top: 60,
   },
-})
-
-export const BodyTest = styled('div', {
-  display: 'block',
-  height: 1000,
 })
