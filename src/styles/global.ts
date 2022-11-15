@@ -29,7 +29,7 @@ export const globalStyles = globalCss({
 
   'body, input, textarea, button': {
     fontWeight: 400,
-    overflow: 'hidden',
+    overflowX: 'hidden',
     fontFamily: poppins.style.fontFamily,
   },
 

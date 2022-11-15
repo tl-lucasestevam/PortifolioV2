@@ -2,13 +2,21 @@ import { styled } from '..'
 
 export const IntroContainer = styled('div', {
   display: 'flex',
-  minHeight: '40rem',
+
+  '@media (max-width: 768px)': {
+    flexDirection: 'column',
+    gap: '4rem',
+  },
 })
 
 export const DescriptionSide = styled('div', {
   display: 'flex',
   alignItems: 'center',
   flex: 1,
+
+  '@media (max-width: 768px)': {
+    alignItems: 'flex-start',
+  },
 })
 
 export const TextBox = styled('div', {
@@ -35,8 +43,51 @@ export const TextBox = styled('div', {
   span: {
     color: '$green300',
   },
+
+  '@media (max-width: 768px)': {
+    h1: {
+      fontSize: '$2xl',
+    },
+  },
 })
 
 export const ImageSide = styled('div', {
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
   flex: 1,
+
+  '@media (max-width: 768px)': {
+    display: 'none',
+  },
+})
+
+export const Shape = styled('div', {
+  display: 'block',
+  width: 422,
+  height: 486,
+  borderRadius: 20,
+  backgroundColor: '$gray700',
+  position: 'relative',
+})
+
+export const Squares = styled('div', {
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+  width: 110,
+  height: 110,
+  borderRadius: 15,
+  backgroundColor: '#1E1E1E',
+  position: 'absolute',
+
+  '&.left-bottom': {
+    left: -30,
+    bottom: -30,
+  },
+
+  '&.right-top': {
+    right: -55,
+    top: 60,
+  },
 })
