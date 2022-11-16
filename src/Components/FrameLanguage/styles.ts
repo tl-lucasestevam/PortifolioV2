@@ -18,6 +18,7 @@ export const FrameLanguageContainer = styled('button', {
   alignItems: 'center',
   justifyContent: 'center',
   gap: 10,
+  zIndex: 99,
 
   position: 'fixed',
   bottom: '1.5rem',
@@ -30,7 +31,7 @@ export const FrameLanguageContainer = styled('button', {
 
   color: '$gray300',
   fontSize: '$md',
-  fontWeight: 500,
+  fontWeight: 300,
 })
 
 export const LanguageOverlay = styled(Dialog.Overlay, {

@@ -14,7 +14,7 @@ export const globalStyles = globalCss({
   },
 
   html: {
-    fontFamily: poppins.style.fontFamily,
+    fontFamily: 'Poppins, sans-serif',
   },
 
   body: {
@@ -27,6 +27,14 @@ export const globalStyles = globalCss({
     maxWidth: '79rem',
     margin: '0 auto',
     padding: '1.5rem',
+
+    '@media (max-width: 1280px)': {
+      padding: '0 5rem',
+    },
+
+    '@media (max-width: 768px)': {
+      padding: '0 2rem',
+    },
   },
 
   'body, input, textarea, button': {
@@ -46,6 +54,15 @@ export const globalStyles = globalCss({
   a: {
     textDecoration: 'none',
     color: '$gray300',
+  },
+
+  h1: {
+    fontSize: '$3xl',
+    fontWeight: 600,
+
+    '@media (max-width: 1280px)': {
+      fontSize: '$2xl',
+    },
   },
 
   '*::-webkit-scrollbar': {

@@ -34,19 +34,11 @@ export const TextBox = styled('div', {
   },
 
   h1: {
-    fontSize: '$3xl',
     maxWidth: '32rem',
-    fontWeight: 700,
   },
 
   span: {
     color: '$green300',
-  },
-
-  '@media (max-width: 768px)': {
-    h1: {
-      fontSize: '$2xl',
-    },
   },
 })
 
