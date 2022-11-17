@@ -1,0 +1,21 @@
+{
+    "About": "Sobre",
+    "Bio": "Bio",
+    "Education": "Educação",
+    "Experience": "Experiência",
+
+    "Options": {
+        "Bio": "<p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with:</p> <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. </p>",
+        "Education": "Eu estudo na FIAP",
+        "Experience": "Eu trabalho na inteiilway"
+    },
+
+    "BioInfo": {
+        "Age": "<span>Idade:...</span> 19",
+        "Nacionalidade": "<span>Nacionalidade:...</span> Brasileiro",
+        "Freelance": "<span>Freelance:...</span> Disponível",
+        "Endereço": "<span>Endereço:...</span> Sâo Paulo, Brasil",
+        "Tel": "<span>Tel:...</span> +55 11 996531071",
+        "Email": "<span>Email:...</span> davidribeiro086@gmail.com"
+    }
+}

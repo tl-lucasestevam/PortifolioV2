@@ -23,7 +23,7 @@ export const globalStyles = globalCss({
     margin: '0 auto',
     padding: '1.5rem',
 
-    '@media (max-width: 1280px)': {
+    '@media (max-width: 1366px)': {
       padding: '0 5rem',
     },
 
@@ -54,7 +54,7 @@ export const globalStyles = globalCss({
     fontSize: '$3xl',
     fontWeight: 700,
 
-    '@media (max-width: 1280px)': {
+    '@media (max-width: 1366px)': {
       fontSize: '$2xl',
     },
   },

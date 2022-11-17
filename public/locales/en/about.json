@@ -1,0 +1,22 @@
+{
+    "About": "About",
+
+    "Bio": "Bio",
+    "Education": "Education",
+    "Experience": "Experience",
+
+    "Options": {
+        "Bio": "I like pig and horse",
+        "Education": "I study at FIAP",
+        "Experience": "I work at intelliway"
+    },
+
+    "BioInfo": {
+        "Age": "<span>Age:...</span> 19",
+        "Nationality": "<span>Nationality:...</span> Brazilian",
+        "Freelance": "<span>Freelance:...</span> Available",
+        "Address": "<span>Address:...</span> Sâo Paulo, Brazil",
+        "Phone": "<span>Phone:...</span> +55 11 996531071",    
+        "Email": "<span>Email:...</span> davidribeiro086@gmail.com"
+    }
+}
