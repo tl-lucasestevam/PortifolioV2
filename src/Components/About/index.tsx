@@ -5,7 +5,6 @@ import {
   DescriptionSide,
   ImageBanner,
   ImageSide,
-  PersonalInfo,
   TitleSection,
   ToggleGroupContainer,
   ToggleItem,
@@ -15,11 +14,24 @@ import BorderSvg from '../../assets/border.svg'
 
 import { useState } from 'react'
 import { useTranslation } from 'next-i18next'
-import parse from 'html-react-parser'
+import { BioInfo } from './components/BioInfo'
+import { EducationInfo } from './components/EducationInfo'
+import { ExperienceInfo } from './components/ExperienceInfo copy'
 
 export function About() {
   const { t: translate } = useTranslation(['about'])
   const [value, setValue] = useState('Bio')
+
+  function renderInfoInScreen() {
+    switch (value) {
+      case 'Bio':
+        return <BioInfo />
+      case 'Education':
+        return <EducationInfo />
+      case 'Experience':
+        return <ExperienceInfo />
+    }
+  }
 
   return (
     <AboutContainer>
@@ -63,23 +75,7 @@ export function About() {
               </ToggleItem>
             </ToggleGroupContainer>
 
-            <DescriptionArea>
-              {parse(translate(`Options.${value}`))}
-
-              {value === 'Bio' && (
-                <PersonalInfo>
-                  {Object.keys(
-                    translate('BioInfo', { returnObjects: true }),
-                  ).map((info) => {
-                    return (
-                      <div key="info">
-                        {parse(translate(`BioInfo.${info}`))}
-                      </div>
-                    )
-                  })}
-                </PersonalInfo>
-              )}
-            </DescriptionArea>
+            <DescriptionArea>{renderInfoInScreen()}</DescriptionArea>
           </DescriptionSide>
         </AboutContent>
       </div>

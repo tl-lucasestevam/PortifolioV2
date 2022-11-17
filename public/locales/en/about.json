@@ -18,5 +18,29 @@
         "Address": "<span>Address:...</span> Sâo Paulo, Brazil",
         "Phone": "<span>Phone:...</span> +55 11 996531071",    
         "Email": "<span>Email:...</span> davidribeiro086@gmail.com"
-    }
+    },
+
+    "EducationInfo": [
+        {
+            "period": "2022 - 2023",
+            "title": "Analysis and Systems Development",
+            "description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have",
+            "company": "FIAP"
+        },
+        {
+            "period": "2019 - 2022",
+            "title": "Technical High School",
+            "description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have",
+            "company": "FIAP School"
+        }
+    ],
+
+    "ExperienceInfo": [
+        {
+            "period": "Apr 2022 - Current",
+            "title": "Intern",
+            "description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have",
+            "company": "Intelliway"
+        }
+    ]
 }

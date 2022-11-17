@@ -59,6 +59,11 @@ export const globalStyles = globalCss({
     },
   },
 
+  h3: {
+    fontSize: '$xl',
+    fontWeight: 700,
+  },
+
   '*::-webkit-scrollbar': {
     width: '5px',
   },
