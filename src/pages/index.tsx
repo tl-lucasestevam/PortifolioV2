@@ -2,11 +2,13 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { DefaultLayout } from '../Layouts/DefaultLayout'
 
 import { Intro } from '../Components/Intro'
+import { About } from '../Components/About'
 
 export default function Home() {
   return (
     <DefaultLayout>
       <Intro />
+      <About />
     </DefaultLayout>
   )
 }

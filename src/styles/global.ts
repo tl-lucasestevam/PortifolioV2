@@ -1,9 +1,4 @@
-import { Poppins } from '@next/font/google'
 import { globalCss } from '.'
-
-const poppins = Poppins({
-  weight: ['400', '500', '600', '700', '800'],
-})
 
 export const globalStyles = globalCss({
   '*': {
@@ -40,7 +35,6 @@ export const globalStyles = globalCss({
   'body, input, textarea, button': {
     fontWeight: 400,
     overflowX: 'hidden',
-    fontFamily: poppins.style.fontFamily,
   },
 
   button: {
@@ -58,7 +52,7 @@ export const globalStyles = globalCss({
 
   h1: {
     fontSize: '$3xl',
-    fontWeight: 600,
+    fontWeight: 700,
 
     '@media (max-width: 1280px)': {
       fontSize: '$2xl',
