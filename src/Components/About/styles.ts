@@ -75,10 +75,10 @@ export const DescriptionArea = styled('div', {
 
 export const PersonalInfo = styled('div', {
   display: 'grid',
-  gridTemplateColumns: '300px 330px',
+  gridTemplateColumns: 'repeat(2, 1fr)',
 
   div: {
-    padding: '1rem',
+    padding: '1rem 0',
 
     span: {
       color: '$green300',
@@ -90,7 +90,7 @@ export const PersonalInfo = styled('div', {
     gridTemplateColumns: '1fr',
 
     div: {
-      padding: '0.5rem',
+      padding: '0.5rem 0',
     },
   },
 })

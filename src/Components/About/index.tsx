@@ -66,17 +66,19 @@ export function About() {
             <DescriptionArea>
               {parse(translate(`Options.${value}`))}
 
-              <PersonalInfo>
-                {Object.keys(translate('BioInfo', { returnObjects: true })).map(
-                  (info) => {
+              {value === 'Bio' && (
+                <PersonalInfo>
+                  {Object.keys(
+                    translate('BioInfo', { returnObjects: true }),
+                  ).map((info) => {
                     return (
                       <div key="info">
                         {parse(translate(`BioInfo.${info}`))}
                       </div>
                     )
-                  },
-                )}
-              </PersonalInfo>
+                  })}
+                </PersonalInfo>
+              )}
             </DescriptionArea>
           </DescriptionSide>
         </AboutContent>
