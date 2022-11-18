@@ -32,6 +32,11 @@ export const FrameLanguageContainer = styled('button', {
   color: '$gray300',
   fontSize: '$md',
   fontWeight: 300,
+  animation: 'opacity 0.5s ease',
+
+  '&:hover': {
+    opacity: 0.8,
+  },
 })
 
 export const LanguageOverlay = styled(Dialog.Overlay, {
@@ -78,6 +83,7 @@ export const LanguageLink = styled(Link, {
   background: 'none',
   border: 'none',
   fontSize: '$md',
+  transition: 'all 0.2s ease-out',
 
   '&:hover': {
     backgroundColor: '$gray700',
