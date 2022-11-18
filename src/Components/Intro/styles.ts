@@ -63,6 +63,11 @@ export const Shape = styled('div', {
   borderRadius: 20,
   backgroundColor: '$gray700',
   position: 'relative',
+
+  '@media (max-width: 1366px)': {
+    width: 372,
+    height: 436,
+  },
 })
 
 export const Squares = styled('div', {
@@ -83,5 +88,15 @@ export const Squares = styled('div', {
   '&.right-top': {
     right: -55,
     top: 60,
+  },
+
+  '@media (max-width: 1366px)': {
+    width: 90,
+    height: 90,
+
+    img: {
+      width: 72,
+      height: 63.02,
+    },
   },
 })

@@ -28,6 +28,11 @@ export const ImageSide = styled('div', {
 export const ImageBanner = styled(Image, {
   maxWidth: '381px',
   width: '100%',
+
+  '@media (max-width: 1366px)': {
+    width: 351,
+    height: 452,
+  },
 })
 
 export const DescriptionSide = styled('div', {
