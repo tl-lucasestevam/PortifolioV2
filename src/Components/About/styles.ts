@@ -7,16 +7,7 @@ export const AboutContainer = styled('section', {
   width: '100%',
   marginTop: '5.625rem',
   backgroundColor: '$gray700',
-  padding: '4.5rem 0 ',
-})
-
-export const TitleSection = styled('h1', {
-  width: '100%',
-  fontSize: '91px',
-  fontWeight: 700,
-  color: '#2E2E2E',
-  textAlign: 'center',
-  marginBottom: '4.5rem',
+  padding: '5rem 0',
 })
 
 export const AboutContent = styled('div', {

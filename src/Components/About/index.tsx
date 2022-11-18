@@ -5,7 +5,6 @@ import {
   DescriptionSide,
   ImageBanner,
   ImageSide,
-  TitleSection,
   ToggleGroupContainer,
   ToggleItem,
 } from './styles'
@@ -17,6 +16,7 @@ import { useTranslation } from 'next-i18next'
 import { BioInfo } from './components/BioInfo'
 import { EducationInfo } from './components/EducationInfo'
 import { ExperienceInfo } from './components/ExperienceInfo copy'
+import { TitleSection } from '../TitleSection'
 
 export function About() {
   const { t: translate } = useTranslation(['about'])
