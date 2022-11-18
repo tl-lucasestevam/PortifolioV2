@@ -32,10 +32,10 @@ export const FrameLanguageContainer = styled('button', {
   color: '$gray300',
   fontSize: '$md',
   fontWeight: 300,
-  animation: 'opacity 0.5s ease',
+  transition: 'all 0.5s ease',
 
   '&:hover': {
-    opacity: 0.8,
+    backgroundColor: '#3D3D3D',
   },
 })
 

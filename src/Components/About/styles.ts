@@ -39,7 +39,7 @@ export const DescriptionSide = styled('div', {
   display: 'flex',
   flexDirection: 'column',
   gap: '2rem',
-  flex: 1,
+  flex: 1.3,
 })
 
 export const ToggleGroupContainer = styled(ToggleGroup.Root, {

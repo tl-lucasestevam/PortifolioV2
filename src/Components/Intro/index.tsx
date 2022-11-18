@@ -26,7 +26,7 @@ export function Intro() {
         data-aos-duration="800"
         data-aos-easing="ease-in-out"
       >
-        <TextBox>
+        <TextBox className="container">
           <div>
             <h1>{parse(translate('Title'))}</h1>
             <p>
