@@ -1,5 +1,7 @@
 import { styled } from '../../../../styles'
 
+export const BioInfoContainer = styled('div', {})
+
 export const PersonalInfo = styled('div', {
   display: 'grid',
   gridTemplateColumns: 'repeat(2, 1fr)',

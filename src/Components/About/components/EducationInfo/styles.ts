@@ -1,5 +1,7 @@
 import { styled } from '../../../../styles'
 
+export const EducationInfoContainer = styled('div', {})
+
 export const EducationCard = styled('div', {
   display: 'flex',
   flexDirection: 'column',
@@ -15,6 +17,7 @@ export const EducationCard = styled('div', {
 
   hr: {
     marginTop: '1.5rem',
+    marginBottom: '1.5rem',
     opacity: 0.2,
   },
 

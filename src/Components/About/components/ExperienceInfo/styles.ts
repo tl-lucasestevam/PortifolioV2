@@ -1,5 +1,7 @@
 import { styled } from '../../../../styles'
 
+export const ExperienceInfoContainer = styled('div', {})
+
 export const ExperienceCard = styled('div', {
   display: 'flex',
   flexDirection: 'column',

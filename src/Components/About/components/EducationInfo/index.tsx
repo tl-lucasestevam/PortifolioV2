@@ -1,4 +1,4 @@
-import { EducationCard } from './styles'
+import { EducationCard, EducationInfoContainer } from './styles'
 import { useTranslation } from 'next-i18next'
 
 interface IEducationInfo {
@@ -16,7 +16,7 @@ export function EducationInfo() {
   })
 
   return (
-    <>
+    <EducationInfoContainer data-aos="fade" data-aos-duration="800">
       {data.map((item) => {
         return (
           <EducationCard key={item.title}>
@@ -28,6 +28,6 @@ export function EducationInfo() {
           </EducationCard>
         )
       })}
-    </>
+    </EducationInfoContainer>
   )
 }

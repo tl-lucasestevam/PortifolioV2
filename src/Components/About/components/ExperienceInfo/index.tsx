@@ -1,4 +1,4 @@
-import { ExperienceCard } from './styles'
+import { ExperienceCard, ExperienceInfoContainer } from './styles'
 import { useTranslation } from 'next-i18next'
 
 interface IExperienceInfo {
@@ -16,7 +16,7 @@ export function ExperienceInfo() {
   })
 
   return (
-    <>
+    <ExperienceInfoContainer data-aos="fade" data-aos-duration="800">
       {data.map((item) => {
         return (
           <ExperienceCard key={item.title}>
@@ -28,6 +28,6 @@ export function ExperienceInfo() {
           </ExperienceCard>
         )
       })}
-    </>
+    </ExperienceInfoContainer>
   )
 }

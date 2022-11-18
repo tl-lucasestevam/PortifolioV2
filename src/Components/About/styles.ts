@@ -51,10 +51,16 @@ export const ToggleItem = styled(ToggleGroup.Item, {
   borderRadius: 5,
   color: '$gray300',
   fontWeight: 600,
+  transition: 'all 0.3s ease-out',
 
   "&[data-state='on']": {
     backgroundColor: 'rgba(52,255,122,0.18)',
     color: '$green300',
+  },
+
+  "&[data-state='off']:hover": {
+    backgroundColor: '$gray600',
+    color: '$gray300',
   },
 })
 

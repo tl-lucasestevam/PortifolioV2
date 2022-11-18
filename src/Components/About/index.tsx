@@ -15,7 +15,7 @@ import { useState } from 'react'
 import { useTranslation } from 'next-i18next'
 import { BioInfo } from './components/BioInfo'
 import { EducationInfo } from './components/EducationInfo'
-import { ExperienceInfo } from './components/ExperienceInfo copy'
+import { ExperienceInfo } from './components/ExperienceInfo'
 import { TitleSection } from '../TitleSection'
 
 export function About() {
@@ -54,6 +54,7 @@ export function About() {
               alt=""
             ></ImageBanner>
           </ImageSide>
+
           <DescriptionSide
             data-aos="fade-in"
             data-aos-duration="800"
