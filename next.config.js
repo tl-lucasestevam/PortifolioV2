@@ -5,6 +5,10 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   i18n,
+
+  images: {
+    domains: ['files.stripe.com', 's3-alpha-sig.figma.com'],
+  },
 }
 
 module.exports = nextConfig

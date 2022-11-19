@@ -4,6 +4,7 @@ import { DefaultLayout } from '../Layouts/DefaultLayout'
 import { Intro } from '../Components/Intro'
 import { About } from '../Components/About'
 import { Skills } from '../Components/Skills'
+import { Projects } from '../Components/Projects'
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Intro />
       <About />
       <Skills />
+      <Projects />
     </DefaultLayout>
   )
 }
