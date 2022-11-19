@@ -11,4 +11,8 @@ export const TitleSectionContainer = styled('h1', {
   '@media (max-width: 1366px)': {
     fontSize: '71px',
   },
+
+  '@media (max-width: 768px)': {
+    fontSize: '50px',
+  },
 })

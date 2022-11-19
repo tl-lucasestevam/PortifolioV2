@@ -30,12 +30,16 @@ export const RightSide = styled('div', {
 export const DescriptionSide = styled('div', {
   display: 'flex',
   flexDirection: 'column',
-  gap: '1rem',
+  gap: '3rem',
   paddingRight: '5rem',
   maxWidth: '30rem',
 
   h1: {
     fontSize: '2.5rem',
+
+    '@media (max-width: 768px)': {
+      fontSize: '2rem',
+    },
   },
 
   p: {
@@ -105,12 +109,20 @@ export const DescriptionArea = styled('div', {
 
   h2: {
     fontSize: '2rem',
+
+    '@media (max-width: 768px)': {
+      fontSize: '1.5rem',
+    },
   },
 
   h3: {
     fontSize: '2.3rem',
     maxWidth: '27rem',
     color: '$white',
+
+    '@media (max-width: 768px)': {
+      fontSize: '1.5rem',
+    },
   },
 })
 
