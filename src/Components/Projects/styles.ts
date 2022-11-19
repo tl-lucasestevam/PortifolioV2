@@ -23,7 +23,7 @@ export const LeftSide = styled('div', {
 export const RightSide = styled('div', {
   display: 'flex',
   flexDirection: 'column',
-  gap: '8rem',
+  gap: '5rem',
   flex: 1,
 })
 
@@ -50,12 +50,31 @@ export const DescriptionSide = styled('div', {
 export const Project = styled('div', {
   display: 'flex',
   flexDirection: 'column',
-  maxWidth: '100%',
-  height: 588,
+  maxWidth: '95%',
   backgroundColor: '$gray600',
   borderRadius: 15,
   gap: '2rem',
   position: 'relative',
+  cursor: 'pointer',
+
+  verticalAlign: 'middle',
+  '-webkit-transform': 'perspective(1px) translateZ(0)',
+  transform: 'perspective(1px) translateZ(0)',
+  boxShadow: '0 0 1px rgba(0, 0, 0, 0)',
+  '-webkit-transition-duration': '0.3s',
+  transitionDuration: '0.3s',
+  '-webkit-transition-property': 'transform',
+  transitionProperty: 'transform',
+
+  '&:hover, &:focus, &:active': {
+    '-webkit-transform': 'scale(1.05)',
+    transform: 'scale(1.05)',
+
+    img: {
+      '-webkit-transform': 'scale(1.08)',
+      transform: 'scale(1.08)',
+    },
+  },
 
   section: {
     display: 'flex',
@@ -101,9 +120,7 @@ export const ImageArea = styled('div', {
   width: '100%',
   paddingTop: '3rem',
   borderRadius: 10,
-  // position: 'absolute',
-  // bottom: 0,
-  // left: 0,
+  overflow: 'hidden',
 
   variants: {
     bg: {
@@ -115,6 +132,15 @@ export const ImageArea = styled('div', {
 })
 
 export const ImageCard = styled(Image, {
+  verticalAlign: 'middle',
+  '-webkit-transform': 'perspective(1px) translateZ(0)',
+  transform: 'perspective(1px) translateZ(0)',
+  boxShadow: '0 0 1px rgba(0, 0, 0, 0)',
+  '-webkit-transition-duration': '0.3s',
+  transitionDuration: '0.4s',
+  '-webkit-transition-property': 'transform',
+  transitionProperty: 'transform',
+
   borderRadius: 10,
   maxWidth: '100%',
   height: 'auto',

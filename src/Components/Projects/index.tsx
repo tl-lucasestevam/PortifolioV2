@@ -24,7 +24,11 @@ export function Projects() {
 
       <ProjectsArea>
         <LeftSide>
-          <DescriptionSide>
+          <DescriptionSide
+            data-aos="fade-right"
+            data-aos-duration="800"
+            data-aos-delay="300"
+          >
             <h1>Take a look at the latest projects I&apos;ve done</h1>
 
             <Button
@@ -34,7 +38,11 @@ export function Projects() {
             />
           </DescriptionSide>
 
-          <Project>
+          <Project
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-delay="400"
+          >
             <section>
               <TagsArea>
                 <Tag>React</Tag>
@@ -56,8 +64,13 @@ export function Projects() {
             </ImageArea>
           </Project>
         </LeftSide>
+
         <RightSide>
-          <Project>
+          <Project
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-delay="400"
+          >
             <section>
               <TagsArea>
                 <Tag>React</Tag>
@@ -78,7 +91,12 @@ export function Projects() {
               />
             </ImageArea>
           </Project>
-          <Project>
+
+          <Project
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-delay="400"
+          >
             <section>
               <TagsArea>
                 <Tag>React</Tag>
