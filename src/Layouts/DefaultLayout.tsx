@@ -1,4 +1,5 @@
 import { ReactNode } from 'react'
+import { Footer } from '../Components/Footer'
 import { FrameLanguage } from '../Components/FrameLanguage'
 import { Header } from '../Components/Header'
 
@@ -12,6 +13,7 @@ export function DefaultLayout({ children }: DefaultLayoutProps) {
       <Header />
       <FrameLanguage />
       {children}
+      <Footer />
     </>
   )
 }

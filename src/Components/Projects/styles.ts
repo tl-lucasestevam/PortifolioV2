@@ -1,7 +1,10 @@
 import Image from 'next/image'
 import { styled } from '../../styles'
 
-export const ProjectsContainer = styled('section', {})
+export const ProjectsContainer = styled('section', {
+  backgroundColor: '$gray700',
+  padding: '4rem',
+})
 
 export const ProjectsArea = styled('div', {
   display: 'flex',
