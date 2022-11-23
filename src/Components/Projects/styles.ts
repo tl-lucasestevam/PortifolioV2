@@ -3,7 +3,7 @@ import { styled } from '../../styles'
 
 export const ProjectsContainer = styled('section', {
   backgroundColor: '$gray700',
-  padding: '4rem',
+  padding: '4rem 0',
 })
 
 export const ProjectsArea = styled('div', {
