@@ -1,4 +1,4 @@
-import { styled } from '../../styles'
+import { styled } from '../..'
 
 export const IntroSection = styled('div', {
   display: 'flex',

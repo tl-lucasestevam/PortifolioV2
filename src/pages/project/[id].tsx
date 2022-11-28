@@ -1,7 +1,7 @@
 /* eslint-disable react/no-children-prop */
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { DefaultLayout } from '../../Layouts/DefaultLayout'
-import { Info } from './components/Info'
+import { Info } from '../../Components/Info'
 import {
   DescriptionSide,
   ImageBackground,
@@ -10,7 +10,7 @@ import {
   LeftSide,
   ProjectContent,
   RightSide,
-} from './styles'
+} from '../../styles/pages/project/styles'
 import parse from 'html-react-parser'
 
 const text =

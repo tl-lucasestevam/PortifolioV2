@@ -2,7 +2,11 @@ import { useTranslation } from 'next-i18next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { ProjectCard } from '../../Components/ProjectCard'
 import { DefaultLayout } from '../../Layouts/DefaultLayout'
-import { IntroSection, ProjectsArea, ProjectsContainer } from './styles'
+import {
+  IntroSection,
+  ProjectsArea,
+  ProjectsContainer,
+} from '../../styles/pages/projects/styles'
 
 export default function Projects() {
   const { t: translate } = useTranslation('projects')
