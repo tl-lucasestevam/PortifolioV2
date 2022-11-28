@@ -1,7 +1,8 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import { styled } from '../../styles'
 
-export const Project = styled('div', {
+export const Project = styled(Link, {
   display: 'flex',
   flexDirection: 'column',
   maxWidth: '95%',

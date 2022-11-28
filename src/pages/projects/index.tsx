@@ -8,8 +8,24 @@ import {
   ProjectsContainer,
 } from '../../styles/pages/projects/styles'
 
+export interface IProjectInfo {
+  id: number
+  title: string
+  shortDescriptions: string
+  client: string
+  services: string
+  technologies: Array<string>
+  link: string
+  description: string
+  imageUrl: string
+}
+
 export default function Projects() {
   const { t: translate } = useTranslation('projects')
+
+  const data: Array<IProjectInfo> = translate('ProjectsData', {
+    returnObjects: true,
+  })
 
   return (
     <DefaultLayout>
@@ -21,10 +37,10 @@ export default function Projects() {
         </IntroSection>
 
         <ProjectsArea>
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
+          {data.map((project) => {
+            console.log(project)
+            return <ProjectCard key={project.id} data={project} />
+          })}
         </ProjectsArea>
       </ProjectsContainer>
     </DefaultLayout>

@@ -1,6 +1,5 @@
 import { ArrowRight } from 'phosphor-react'
 import { Button } from '../Button'
-import { ProjectCard } from '../ProjectCard'
 import { TitleSection } from '../TitleSection'
 import {
   DescriptionSide,
@@ -34,13 +33,13 @@ export function Projects() {
               />
             </DescriptionSide>
 
-            <ProjectCard />
+            {/* <ProjectCard /> */}
           </LeftSide>
 
           <RightSide>
-            <ProjectCard />
+            {/* <ProjectCard /> */}
 
-            <ProjectCard />
+            {/* <ProjectCard /> */}
           </RightSide>
         </ProjectsArea>
       </div>

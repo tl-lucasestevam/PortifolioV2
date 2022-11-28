@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { styled } from '../..'
 
 export const IntroSection = styled('div', {
@@ -27,6 +28,17 @@ export const ImageBackground = styled('div', {
   height: '70vh',
   backgroundColor: '$codify',
   margin: '8rem 0',
+  position: 'relative',
+})
+
+export const ImageArea = styled('div', {
+  display: 'flex',
+  justifyContent: 'center',
+})
+
+export const ImageProject = styled(Image, {
+  position: 'absolute',
+  bottom: 0,
 })
 
 export const DescriptionSide = styled('div', {
