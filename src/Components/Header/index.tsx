@@ -13,7 +13,7 @@ export const navbarData = [
   },
   {
     title: 'Projects',
-    href: '#',
+    href: '/projects',
   },
   {
     title: 'Contact',
