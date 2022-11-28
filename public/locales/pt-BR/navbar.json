@@ -1,7 +1,24 @@
 {
-  "Home": "Início",
-  "About": "Sobre",
-  "Projects": "Projetos", 
-  "Contact": "Contato",
-  "Blog": "Blog"
+  "Links": [
+    {
+      "title": "Início",
+      "href": "/"
+    },
+    {
+      "title": "Sobre",
+      "href": "/#about"
+    },
+    {
+      "title": "Projetos",
+      "href": "/#projects"
+    },
+    {
+      "title": "Contato",
+      "href": "/#contact"
+    },
+    {
+      "title": "Blog",
+      "href": "#"
+    }
+  ]  
 }

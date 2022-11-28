@@ -34,7 +34,7 @@ export function About() {
   }
 
   return (
-    <AboutContainer>
+    <AboutContainer id="about">
       <div className="container">
         <TitleSection data-aos="fade-right" data-aos-duration="800">
           {translate('About').toUpperCase()}

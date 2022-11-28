@@ -17,31 +17,16 @@ import {
 import LinkedinSvg from '../../assets/linkedin.svg'
 import GithubSvg from '../../assets/github.svg'
 import Image from 'next/image'
-
-export const navbarData = [
-  {
-    title: 'Home',
-    href: '#',
-  },
-  {
-    title: 'About',
-    href: '#',
-  },
-  {
-    title: 'Projects',
-    href: '#',
-  },
-  {
-    title: 'Contact',
-    href: '#',
-  },
-  {
-    title: 'Blog',
-    href: '#',
-  },
-]
+import { useTranslation } from 'next-i18next'
+import { ILink } from '../Header'
 
 export function Footer() {
+  const { t: translate } = useTranslation('navbar')
+
+  const navbarData = translate('Links', {
+    returnObjects: true,
+  }) as Array<ILink>
+
   return (
     <FooterContainer>
       <FooterArea className="container">

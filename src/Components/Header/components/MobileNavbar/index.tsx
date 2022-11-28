@@ -1,6 +1,6 @@
 import { useTranslation } from 'next-i18next'
 import { useState } from 'react'
-import { navbarData } from '../..'
+import { ILink } from '../..'
 import {
   HamburgerMenu,
   MobileListItems,
@@ -11,6 +11,10 @@ import {
 export function MobileNavbar() {
   const [isOpen, setOpen] = useState(false)
   const { t: translate } = useTranslation('navbar')
+
+  const navbarData = translate('Links', {
+    returnObjects: true,
+  }) as Array<ILink>
 
   return (
     <MobileNavbarContainer>

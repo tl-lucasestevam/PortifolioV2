@@ -11,7 +11,7 @@ import {
 
 export function Projects() {
   return (
-    <ProjectsContainer>
+    <ProjectsContainer id="projects">
       <div className="container">
         <TitleSection data-aos="fade-right" data-aos-duration="800">
           PROJECTS

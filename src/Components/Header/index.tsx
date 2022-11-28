@@ -2,31 +2,17 @@ import { MobileNavbar } from './components/MobileNavbar'
 import { HeaderContainer, ListItems, NavLink } from './styles'
 import { useTranslation } from 'react-i18next'
 
-export const navbarData = [
-  {
-    title: 'Home',
-    href: '#',
-  },
-  {
-    title: 'About',
-    href: '#',
-  },
-  {
-    title: 'Projects',
-    href: '/projects',
-  },
-  {
-    title: 'Contact',
-    href: '#',
-  },
-  {
-    title: 'Blog',
-    href: '#',
-  },
-]
+export interface ILink {
+  title: string
+  href: string
+}
 
 export function Header() {
   const { t: translate } = useTranslation('navbar')
+
+  const navbarData = translate('Links', {
+    returnObjects: true,
+  }) as Array<ILink>
 
   return (
     <HeaderContainer className="container">
