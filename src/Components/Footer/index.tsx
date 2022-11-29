@@ -21,9 +21,11 @@ import { useTranslation } from 'next-i18next'
 import { ILink } from '../Header'
 
 export function Footer() {
-  const { t: translate } = useTranslation('navbar')
+  const { t: translateNavbar } = useTranslation('navbar')
 
-  const navbarData = translate('Links', {
+  const { t: translateFooter } = useTranslation('footer')
+
+  const navbarData = translateNavbar('Links', {
     returnObjects: true,
   }) as Array<ILink>
 
@@ -35,12 +37,12 @@ export function Footer() {
             <Avatar></Avatar>
             <DescriptionSide>
               <h1>David Augusto</h1>
-              <h3>Web Developer</h3>
+              <h3>{translateFooter('Web Developer')}</h3>
             </DescriptionSide>
           </LeftSide>
           <RightSide>
             <LinkButton href="#">
-              <h1>Get In Touch</h1>
+              <h1>{translateFooter('Get In Touch')}</h1>
               <ArrowRight size={53} weight="bold" color="#36C768" />
             </LinkButton>
           </RightSide>
