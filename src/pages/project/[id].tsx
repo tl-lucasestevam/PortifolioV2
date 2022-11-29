@@ -24,8 +24,17 @@ export default function Project() {
   const { t: translate } = useTranslation('projects')
 
   function getData(field: string) {
-    return translate(`ProjectsData.${Number(id) - 1}.${field}`)
+    return translate(`ProjectsData.${Number(id) - 1}.${field}`, {
+      returnObjects: true,
+    })
   }
+
+  const technologies: Array<string> = translate(
+    `ProjectsData.${Number(id) - 1}.technologies`,
+    {
+      returnObjects: true,
+    },
+  )
 
   return (
     <DefaultLayout>
@@ -51,7 +60,11 @@ export default function Project() {
           <InfoSide>
             <Info title="CLIENT">{getData('client')}</Info>
             <Info title="SERVICES">{getData('services')}</Info>
-            <Info title="TECHNOLOGIES">{getData('technologies')}</Info>
+            <Info title="TECHNOLOGIES">
+              {technologies.map((tech) => {
+                return <p key={tech}>{tech}</p>
+              })}
+            </Info>
             <Info title="WEBSITE">{getData('website')}</Info>
           </InfoSide>
         </LeftSide>

@@ -38,7 +38,6 @@ export default function Projects() {
 
         <ProjectsArea>
           {data.map((project) => {
-            console.log(project)
             return <ProjectCard key={project.id} data={project} />
           })}
         </ProjectsArea>
