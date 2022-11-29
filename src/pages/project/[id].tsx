@@ -78,8 +78,8 @@ export default function Project() {
 
 export async function getStaticPaths() {
   return {
-    paths: [],
-    fallback: true,
+    paths: [{ params: { id: '1' } }],
+    fallback: false,
   }
 }
 
