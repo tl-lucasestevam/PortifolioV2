@@ -33,4 +33,9 @@ export const ProjectsArea = styled('div', {
   display: 'grid',
   gridTemplateColumns: 'repeat(2, 1fr)',
   gridRowGap: '2.5rem',
+  gridColumnGap: '2.5rem',
+
+  '@media (max-width: 768px)': {
+    gridTemplateColumns: 'repeat(1, 1fr)',
+  },
 })

@@ -5,7 +5,7 @@ import { styled } from '../../styles'
 export const Project = styled(Link, {
   display: 'flex',
   flexDirection: 'column',
-  maxWidth: '95%',
+  maxWidth: '100%',
   backgroundColor: '$gray600',
   borderRadius: 15,
   gap: '2rem',
