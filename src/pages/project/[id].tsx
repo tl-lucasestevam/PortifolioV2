@@ -78,7 +78,10 @@ export default function Project() {
 
 export async function getStaticPaths() {
   return {
-    paths: [{ params: { id: '1' } }],
+    paths: [
+      { params: { id: '1' }, locale: 'pt-BR' },
+      { params: { id: '1' }, locale: 'en' },
+    ],
     fallback: false,
   }
 }

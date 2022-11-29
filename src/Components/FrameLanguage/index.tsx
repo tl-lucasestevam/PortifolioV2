@@ -13,10 +13,12 @@ import BrFlag from '../../assets/brazil_flag.png'
 import EuaFlag from '../../assets/united_states_flag.png'
 import { useTranslation } from 'next-i18next'
 import { MouseEvent, useState } from 'react'
+import { useRouter } from 'next/router'
 
 export function FrameLanguage() {
   const [open, setOpen] = useState(false)
   const { t: translate } = useTranslation(['common'])
+  const router = useRouter()
 
   function handleCloseModal(e: MouseEvent<HTMLButtonElement>) {
     setOpen(false)
