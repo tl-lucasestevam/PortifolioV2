@@ -9,6 +9,10 @@ export const InfoContainer = styled('div', {
     fontSize: '1.3rem',
     color: '$gray200',
     fontWeight: 'bold',
+
+    '@media (max-width: 768px)': {
+      fontSize: '1.1rem',
+    },
   },
 
   p: {

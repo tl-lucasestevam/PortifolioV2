@@ -16,6 +16,10 @@ export const IntroSection = styled('div', {
   h1: {
     color: '$white',
     maxWidth: '40rem',
+
+    '@media (max-width: 768px)': {
+      fontSize: '2rem',
+    },
   },
 
   p: {
@@ -29,6 +33,10 @@ export const ImageBackground = styled('div', {
   backgroundColor: '$codify',
   margin: '8rem 0',
   position: 'relative',
+
+  '@media (max-width: 768px)': {
+    height: '35vh',
+  },
 })
 
 export const ImageArea = styled('div', {
@@ -37,12 +45,20 @@ export const ImageArea = styled('div', {
 })
 
 export const ImageProject = styled(Image, {
+  maxWidth: '1000px',
+  width: '100%',
+  height: 'auto',
   position: 'absolute',
   bottom: 0,
 })
 
 export const DescriptionSide = styled('div', {
   display: 'flex',
+
+  '@media (max-width: 768px)': {
+    flexDirection: 'column',
+    gap: '5rem',
+  },
 })
 
 export const LeftSide = styled('div', {
