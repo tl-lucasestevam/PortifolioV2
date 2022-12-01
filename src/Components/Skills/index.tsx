@@ -17,10 +17,18 @@ import { ArrowLeft, ArrowRight } from 'phosphor-react'
 import useEmblaCarousel from 'embla-carousel-react'
 import { useCallback } from 'react'
 
-import htmlSvg from '../../assets/html.svg'
+interface ITech {
+  name: string
+  imageUrl: string
+  description: string
+}
 
 export function Skills() {
   const { t: translate } = useTranslation(['skills'])
+
+  const techs: Array<ITech> = translate('SkillsData', {
+    returnObjects: true,
+  })
 
   const [emblaRef, emblaApi] = useEmblaCarousel({
     align: 'start',
@@ -64,42 +72,21 @@ export function Skills() {
         <CarrouselSide className="embla">
           <CarrouselViewport ref={emblaRef}>
             <CarrouselContainer className="embla__container">
-              <CarrouselItem className="embla__slide">
-                <LogoTech src={htmlSvg} width={72.09} height={71} alt="" />
-                <h2>HTML & CSS</h2>
-                <p>Duis aute irure dolor in reprehenderit in voluptate.</p>
-                <Detail />
-              </CarrouselItem>
-              <CarrouselItem className="embla__slide">
-                <LogoTech src={htmlSvg} width={72.09} height={71} alt="" />
-                <h2>HTML & CSS</h2>
-                <p>Duis aute irure dolor in reprehenderit in voluptate.</p>
-                <Detail />
-              </CarrouselItem>
-              <CarrouselItem className="embla__slide">
-                <LogoTech src={htmlSvg} width={72.09} height={71} alt="" />
-                <h2>HTML & CSS</h2>
-                <p>Duis aute irure dolor in reprehenderit in voluptate.</p>
-                <Detail />
-              </CarrouselItem>
-              <CarrouselItem className="embla__slide">
-                <LogoTech src={htmlSvg} width={72.09} height={71} alt="" />
-                <h2>HTML & CSS</h2>
-                <p>Duis aute irure dolor in reprehenderit in voluptate.</p>
-                <Detail />
-              </CarrouselItem>
-              <CarrouselItem className="embla__slide">
-                <LogoTech src={htmlSvg} width={72.09} height={71} alt="" />
-                <h2>HTML & CSS</h2>
-                <p>Duis aute irure dolor in reprehenderit in voluptate.</p>
-                <Detail />
-              </CarrouselItem>
-              <CarrouselItem className="embla__slide">
-                <LogoTech src={htmlSvg} width={72.09} height={71} alt="" />
-                <h2>HTML & CSS</h2>
-                <p>Duis aute irure dolor in reprehenderit in voluptate.</p>
-                <Detail />
-              </CarrouselItem>
+              {techs.map((tech) => {
+                return (
+                  <CarrouselItem key={tech.name} className="embla__slide">
+                    <LogoTech
+                      src={tech.imageUrl}
+                      width={72.09}
+                      height={71}
+                      alt=""
+                    />
+                    <h2>{tech.name}</h2>
+                    <p>{tech.description}</p>
+                    <Detail />
+                  </CarrouselItem>
+                )
+              })}
             </CarrouselContainer>
           </CarrouselViewport>
         </CarrouselSide>

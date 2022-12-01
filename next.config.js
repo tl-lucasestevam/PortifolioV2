@@ -7,7 +7,13 @@ const nextConfig = {
   i18n,
 
   images: {
-    domains: ['files.stripe.com', 's3-alpha-sig.figma.com'],
+    dangerouslyAllowSVG: true,
+    domains: [
+      'files.stripe.com',
+      's3-alpha-sig.figma.com',
+      'i.postimg.cc',
+      'firebasestorage.googleapis.com',
+    ],
   },
 }
 
