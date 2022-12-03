@@ -22,7 +22,9 @@ export function ProjectCard({ data }: ProjectProps) {
     >
       <section>
         <TagsArea>
-          <Tag>React</Tag>
+          {data.technologies.map((tech) => {
+            return <Tag key={tech}>{tech}</Tag>
+          })}
         </TagsArea>
 
         <DescriptionArea>
@@ -31,7 +33,7 @@ export function ProjectCard({ data }: ProjectProps) {
         </DescriptionArea>
       </section>
 
-      <ImageArea bg="Codify">
+      <ImageArea style={{ backgroundColor: `${data.color}` }}>
         <ImageCard src={data.imageUrl} width={527} height={274} alt="" />
       </ImageArea>
     </Project>

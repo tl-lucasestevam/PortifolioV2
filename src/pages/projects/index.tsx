@@ -18,6 +18,7 @@ export interface IProjectInfo {
   link: string
   description: string
   imageUrl: string
+  color: string
 }
 
 export default function Projects() {

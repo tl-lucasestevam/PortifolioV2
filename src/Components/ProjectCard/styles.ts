@@ -40,7 +40,14 @@ export const Project = styled(Link, {
 })
 
 export const TagsArea = styled('div', {
+  display: 'flex',
+  gap: '1rem',
   width: '100%',
+
+  '@media (max-width: 768px)': {
+    display: 'grid',
+    gridTemplateColumns: 'repeat(2, 1fr)',
+  },
 })
 
 export const Tag = styled('div', {
@@ -49,7 +56,7 @@ export const Tag = styled('div', {
   alignItems: 'center',
   borderRadius: 5,
   backgroundColor: '#414149',
-  width: 97.07,
+  minWidth: 97.07,
   height: 38.38,
 })
 
@@ -84,14 +91,6 @@ export const ImageArea = styled('div', {
   paddingTop: '3rem',
   borderRadius: 10,
   overflow: 'hidden',
-
-  variants: {
-    bg: {
-      Codify: {
-        backgroundColor: '$codify',
-      },
-    },
-  },
 })
 
 export const ImageCard = styled(Image, {
@@ -104,7 +103,7 @@ export const ImageCard = styled(Image, {
   '-webkit-transition-property': 'transform',
   transitionProperty: 'transform',
 
-  borderRadius: 10,
+  borderRadius: '10 10 0 0',
   maxWidth: '100%',
   height: 'auto',
 })

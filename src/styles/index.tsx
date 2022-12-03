@@ -20,8 +20,6 @@ export const {
       gray300: '#D1D1D1',
 
       green300: '#36C768',
-
-      codify: '#1A75E8',
     },
     fontSizes: {
       md: '1rem',
@@ -30,10 +28,5 @@ export const {
       '2xl': '2.5rem',
       '3xl': '3rem',
     },
-  },
-  utils: {
-    bag: (value: string) => ({
-      backgroundColor: value,
-    }),
   },
 })

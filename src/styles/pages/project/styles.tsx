@@ -30,7 +30,6 @@ export const IntroSection = styled('div', {
 export const ImageBackground = styled('div', {
   width: '100vw',
   height: '70vh',
-  backgroundColor: '$codify',
   margin: '8rem 0',
   position: 'relative',
 

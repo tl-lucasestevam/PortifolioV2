@@ -44,7 +44,7 @@ export default function Project() {
         <p>{getData('shortDescription')}</p>
       </IntroSection>
 
-      <ImageBackground>
+      <ImageBackground style={{ backgroundColor: `${getData('color')}` }}>
         <ImageArea className="container">
           <ImageProject
             src={getData('imageUrl')}
@@ -81,6 +81,8 @@ export async function getStaticPaths() {
     paths: [
       { params: { id: '1' }, locale: 'pt-BR' },
       { params: { id: '1' }, locale: 'en' },
+      { params: { id: '2' }, locale: 'pt-BR' },
+      { params: { id: '2' }, locale: 'en' },
     ],
     fallback: false,
   }
