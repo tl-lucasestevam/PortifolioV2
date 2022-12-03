@@ -91,6 +91,7 @@ export const ImageArea = styled('div', {
   paddingTop: '3rem',
   borderRadius: 10,
   overflow: 'hidden',
+  marginTop: 'auto',
 })
 
 export const ImageCard = styled(Image, {
