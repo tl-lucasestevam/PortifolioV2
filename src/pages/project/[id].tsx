@@ -12,10 +12,12 @@ import {
   RightSide,
   ImageArea,
   ImageProject,
+  LinkWebsite,
 } from '../../styles/pages/project/styles'
 import parse from 'html-react-parser'
 import { useTranslation } from 'next-i18next'
 import { useRouter } from 'next/router'
+import { ArrowUpRight } from 'phosphor-react'
 
 export default function Project() {
   const router = useRouter()
@@ -65,7 +67,12 @@ export default function Project() {
                 return <p key={tech}>{tech}</p>
               })}
             </Info>
-            <Info title="WEBSITE">{getData('website')}</Info>
+            <Info title="WEBSITE">
+              <LinkWebsite href={getData('website')}>
+                <p>{translate('Visit Website')}</p>{' '}
+                <ArrowUpRight size={32} weight="bold" color="#FFF" />
+              </LinkWebsite>
+            </Info>
           </InfoSide>
         </LeftSide>
         <RightSide>

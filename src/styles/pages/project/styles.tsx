@@ -1,4 +1,6 @@
 import Image from 'next/image'
+import Link from 'next/link'
+
 import { styled } from '../..'
 
 export const IntroSection = styled('div', {
@@ -96,5 +98,15 @@ export const ProjectContent = styled('div', {
 
   'ul, ol': {
     paddingLeft: '1.5rem',
+  },
+})
+
+export const LinkWebsite = styled(Link, {
+  display: 'flex',
+  gap: '0.5rem',
+  transition: 'all 0.3s ease-in-out',
+
+  '&:hover': {
+    opacity: 0.6,
   },
 })
