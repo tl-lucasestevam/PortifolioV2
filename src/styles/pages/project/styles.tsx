@@ -49,6 +49,14 @@ export const ImageProject = styled(Image, {
   height: 'auto',
   position: 'absolute',
   bottom: 0,
+
+  '@media (max-width: 1366px)': {
+    width: '60%',
+  },
+
+  '@media (max-width: 1024px)': {
+    width: '85%',
+  },
 })
 
 export const DescriptionSide = styled('div', {
