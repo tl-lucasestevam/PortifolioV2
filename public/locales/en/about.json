@@ -28,7 +28,7 @@
             "company": "FIAP"
         },
         {
-            "period": "2019 - 2022",
+            "period": "2019 - 2021",
             "title": "Technical High School",
             "description": "<div>During my studies as an IT Technician, I had the opportunity to acquire knowledge in various areas of information technology, such as:</div> <div>- Development of static websites using HTML, CSS and Javascript</div> <div>- Design of interfaces applying UX Design concepts</div> <div>- Development of mobile applications with the Flutter framework</div> <div>- Object-oriented programming with the C# language.</div> <div>These skills allow me to work on software development and user interface creation projects, both for the web and for mobile devices.</div>",
             "company": "FIAP School"
@@ -39,7 +39,7 @@
         {
             "period": "Apr 2022 - Current",
             "title": "Intern",
-            "description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have",
+            "description": "<div>During my internship at Intelliway, I had the opportunity to work as an AI developer in the company's technology division. Some of the main activities I carried out included:</div> <div>- Building scalable and performant Rest API's using Node.js</div> <div>- Developing interaction flows with chatbots using IBM Watson</div><div>- Modeling and programming for databases, identifying entities and relationships between them to build efficient information systems</div><div>- Working in an Agile and DevOps environment, which allowed me to gain experience in iterative and collaborative software development methodologies</div <div>- Creating new features and maintaining systems, contributing to the continuous improvement of the company's systems' performance and quality.</div>",
             "company": "Intelliway"
         }
     ]

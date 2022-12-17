@@ -26,3 +26,11 @@ export const ExperienceCard = styled('div', {
     },
   },
 })
+
+export const ExperienceDescription = styled('div', {
+  display: 'flex',
+  flexDirection: 'column',
+  gap: '1rem',
+  textAlign: 'justify',
+  opacity: 0.7,
+})
