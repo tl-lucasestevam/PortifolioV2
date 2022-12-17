@@ -29,10 +29,7 @@ export function Intro() {
         <TextBox className="container">
           <div>
             <h1>{parse(translate('Title'))}</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipiscing elit leo quis
-              ullamcorper quis id elementum convallis lacus gravida.
-            </p>
+            <p>{translate('Description')}</p>
           </div>
 
           <Button

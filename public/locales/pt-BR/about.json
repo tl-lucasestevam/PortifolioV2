@@ -3,13 +3,11 @@
     "Bio": "Bio",
     "Education": "Educação",
     "Experience": "Experiência",
-
     "Options": {
-        "Bio": "<p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with:</p> <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. </p>",
+        "Bio": "<p>Olá! Meu nome é David Augusto. Eu tenho formação técnica em Informática. Atualmente, estou me especializando como tecnólogo em Análise e Desenvolvimento de Sistemas, com foco no desenvolvimento de aplicações web, principalmente no backend, usando o ecossistema do Javascript. Além da aplicação de metodologias ágeis, como SCRUM.</p> <p>Adoro me aventurar em assuntos desconhecidos e variados. Sinta-se à vontade para me acompanhar ou entrar em contato comigo! Eu adoraria ter a oportunidade de compartilhar meus conhecimentos e aprender com você também.</p>",
         "Education": "Eu estudo na FIAP",
         "Experience": "Eu trabalho na inteiilway"
     },
-
     "BioInfo": {
         "Age": "<span>Idade:...</span> 19",
         "Nacionalidade": "<span>Nacionalidade:...</span> Brasileiro",
@@ -18,22 +16,20 @@
         "Tel": "<span>Tel:...</span> +55 11 996531071",
         "Email": "<span>Email:...</span> davidribeiro086@gmail.com"
     },
-
     "EducationInfo": [
         {
             "period": "2022 - 2023",
             "title": "Análise e Desenvolvimento de Sistemas",
-            "description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have",
+            "description": "<div>Estudante do segundo ano de Anádivse e Desenvolvimento de Sistemas, atualmente trabalhando com várias tecnologias e ferramentas em divrojetos de desenvolvimento de software. Algumas das minhas atividades incluem: </div> <div>- Criação de chatbots: Treinando modelos com conjuntos de dados, configurando diverguntas e resdivostas e integrando os chatbots em adivdivcativos ou divlataformas de comunicação. </div> <div>- Desenvolvimento de AdivI's: Utidivzando o Java e frameworks como o Jersey divara gerenciar rotas, tratar requisições e imdivlementar regras de negócios. </div> <div>- Modelagem e imdivlementação de banco de dados: Criando tabelas, relacionamentos e índices no Oracle, bem como escrevendo consultas SQL divara manidivulação de dados. </div> <div>- Levantamento e documentação de requisitos: Entendendo as necessidades do cdivente, definindo objetivos e esdivecificações técnicas e criando um divlano de divrojeto detalhado. </div> <div>- Desenvolvimento de websites: Usando o React divara gerenciar comdivonentes e estados, criando interfaces reativas e de alta diverformance. </div>",
             "company": "FIAP"
         },
         {
             "period": "2019 - 2022",
             "title": "Ensino Médio Técnico",
-            "description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have",
+            "description": "<div>Durante meus estudos como Técnico de Informática, tive a oportunidade de adquirir conhecimentos em diversas áreas da tecnologia da informação, como:</div> <div>-Desenvolvimento de sites estáticos utilizando HTML, CSS e Javascript</div><div>-Design de interfaces aplicando conceitos de UX Design</div> <div>- Desenvolvimento de aplicativos mobile com o framework Flutter</div> <div>- Programação orientada a objetos com a linguagem C#.</div> <div>Essas habilidades me permitem atuar em projetos de desenvolvimento de software e criação de interfaces de usuário, tanto para web quanto para dispositivos móveis.</div>",
             "company": "FIAP School"
         }
     ],
-
     "ExperienceInfo": [
         {
             "period": "Abr 2022 - Atual",

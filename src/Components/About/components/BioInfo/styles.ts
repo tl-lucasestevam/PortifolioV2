@@ -1,6 +1,10 @@
 import { styled } from '../../../../styles'
 
-export const BioInfoContainer = styled('div', {})
+export const BioInfoContainer = styled('div', {
+  display: 'flex',
+  flexDirection: 'column',
+  gap: '1rem',
+})
 
 export const PersonalInfo = styled('div', {
   display: 'grid',

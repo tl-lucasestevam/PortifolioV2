@@ -6,7 +6,7 @@
     "Experience": "Experience",
 
     "Options": {
-        "Bio": "<p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with:</p> <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. </p>",
+        "Bio": "<p>Hello! My name is David Augusto. I have technical training in Computer Science. Currently, I am specializing as a Technologist in Systems Analysis and Development, with a focus on web application development, mainly on the backend, using the Javascript ecosystem. In addition to the application of agile methodologies, such as SCRUM.</p><p>I love to venture into unknown and varied subjects. Feel free to join me or contact me! I would love the opportunity to share my knowledge and learn from you as well.</p>",
         "Education": "I study at FIAP",
         "Experience": "I work at intelliway"
     },
@@ -24,13 +24,13 @@
         {
             "period": "2022 - 2023",
             "title": "Analysis and Systems Development",
-            "description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have",
+            "description": "<div>I am a second year student of Systems Analysis and Development, currently working with various technologies and tools on software development projects. Some of my activities include:</div> <div>Creating chatbots: Training models with datasets, configuring questions and answers, and integrating chatbots into applications or communication platforms.</div> <div>Developing APIs: Using Java and frameworks such as Jersey to manage routes, handle requests, and implement business rules.</div> <div>Modeling and implementing databases: Creating tables, relationships, and indexes in Oracle, as well as writing SQL queries for data manipulation.</div> <div>Gathering and documenting requirements: Understanding client needs, defining goals and technical specifications, and creating a detailed project plan.</div> <div>Developing websites: Using React to manage components and states, creating responsive and high-performance interfaces.</div>",
             "company": "FIAP"
         },
         {
             "period": "2019 - 2022",
             "title": "Technical High School",
-            "description": "Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have",
+            "description": "<div>During my studies as an IT Technician, I had the opportunity to acquire knowledge in various areas of information technology, such as:</div> <div>-Development of static websites using HTML, CSS and Javascript</div> <div>-Design of interfaces applying UX Design concepts</div> <div>- Development of mobile applications with the Flutter framework</div> <div>- Object-oriented programming with the C# language.</div> <div>These skills allow me to work on software development and user interface creation projects, both for the web and for mobile devices.</div>",
             "company": "FIAP School"
         }
     ],

@@ -1,5 +1,10 @@
-import { EducationCard, EducationInfoContainer } from './styles'
+import {
+  EducationCard,
+  EducationDescription,
+  EducationInfoContainer,
+} from './styles'
 import { useTranslation } from 'next-i18next'
+import parse from 'html-react-parser'
 
 interface IEducationInfo {
   title: string
@@ -23,7 +28,9 @@ export function EducationInfo() {
             <span>{item.period}</span>
             <h3>{item.title}</h3>
             <h4>{item.company}</h4>
-            <p>{item.description}</p>
+            <EducationDescription>
+              {parse(item.description)}
+            </EducationDescription>
             <hr />
           </EducationCard>
         )

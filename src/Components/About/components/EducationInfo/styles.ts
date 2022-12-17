@@ -27,3 +27,11 @@ export const EducationCard = styled('div', {
     },
   },
 })
+
+export const EducationDescription = styled('div', {
+  display: 'flex',
+  flexDirection: 'column',
+  gap: '1rem',
+  textAlign: 'justify',
+  opacity: 0.7,
+})
