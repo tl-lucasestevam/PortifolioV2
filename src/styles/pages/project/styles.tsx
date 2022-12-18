@@ -92,12 +92,28 @@ export const ProjectContent = styled('div', {
   flexDirection: 'column',
   gap: '1.4rem',
 
+  p: {
+    fontSize: '1.1rem',
+    lineHeight: '2rem',
+  },
+
   'h1, h2, h3': {
     color: '$white',
   },
 
+  h2: {
+    fontSize: '1.6rem',
+  },
+
+  ul: {
+    listStyle: 'initial',
+  },
+
   'ul, ol': {
     paddingLeft: '1.5rem',
+    display: 'flex',
+    flexDirection: 'column',
+    gap: '1rem',
   },
 })
 
