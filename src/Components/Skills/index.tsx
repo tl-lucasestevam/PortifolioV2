@@ -52,12 +52,9 @@ export function Skills() {
 
       <SkillsContent className="container">
         <DescriptionSide>
-          <h1>My extensive list of skills</h1>
+          <h1>{translate('Title')}</h1>
 
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipiscing elit leo quis
-            ullamcorper quis id elementum convallis lacus gravida.
-          </p>
+          <p>{translate('Description')}</p>
 
           <CarrouselButtonContainer>
             <CarrouselButton className="embla__prev" onClick={scrollPrev}>

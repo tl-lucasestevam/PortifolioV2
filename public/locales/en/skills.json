@@ -1,5 +1,7 @@
 {
     "Skills": "Skills",
+    "Title": "My technology list",
+    "Description": "These are the technologies that I am continuously studying and applying in development projects.",
 
     "SkillsData": [
         {

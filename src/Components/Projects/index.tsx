@@ -39,11 +39,11 @@ export function Projects() {
               data-aos-duration="800"
               data-aos-delay="300"
             >
-              <h1>Take a look at the latest projects I&apos;ve done</h1>
+              <h1>{translate('Title')}</h1>
 
               <Button
                 bg="outlined"
-                text="See projects"
+                text={translate('Button')}
                 icon={<ArrowRight size={24} weight="bold" />}
               />
             </DescriptionSide>
