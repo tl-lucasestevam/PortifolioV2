@@ -65,7 +65,20 @@
             "imageUrl": "https://firebasestorage.googleapis.com/v0/b/payflow-ddaaf.appspot.com/o/Banners%2Ffreeplaybanner.png?alt=media&token=c1ce148d-7889-4f6f-bbd8-694918b54635",
             "website": "https://freeplayy.netlify.app/",
             "color": "#171B1F"
-        }
-        
+        },
+        {
+            "title": "Household garbage sales app",
+            "shortDescription":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit fames turpis pretium bibendum nisl est sagittis aliquam pretium nunc.",
+            "client": "Cicle",
+            "services": "App Mobile",
+            "technologies": [
+                "Flutter",
+                "Firebase"
+            ],
+            "description": "<h2 id='about-the-project'>About the project</h2><p><strong>Codify</strong> is a project proposed by IBM that aims to prepare candidates for the job market by providing materials, exercises, and technical tests used by companies in their selection processes. In addition to recommendations for free courses in various technologies that are highly sought after by companies, tips on how to prepare your resume and act in an interview so that it is successful.</p><h2 id='what-was-the-goal-of-the-project'>What are the project goals?            </h2><p>The project goals include:</p><ul><li><p>Providing an interactive and accessible learning environment for users to practice and develop their skills in different programming languages.</p></li><li><p>Providing a variety of learning resources, such as tutorials and exercises, to help users progress in their skills.</p></li><li><p>Creating an intuitive and easy-to-use user interface to make the platform accessible to all skill levels.</p></li><li><p>Keeping the platform up-to-date with the latest trends and technologies in programming.</p></li></ul><h2 id='project-execution'>Project execution</h2><ol><li><p><strong>Planning</strong>: In this stage, the project&#39;s   and scope were defined, as well as the creation of the work schedule and the allocation of resources. A risk management plan was also developed to identify and manage potential issues that could arise during development.</p></li><li><p><strong>Requirements analysis</strong>: In this stage, the needs and expectations of the platform&#39;s users were gathered, as well as the technical requirements necessary for the development of the system. These requirements were documented in a requirements specification document, which served as the basis for the project development.</p></li><li><p><strong>Design</strong>: In this stage, the system architecture was planned, including the definition of the data structure, the choice of technologies to be used, and the creation of user interface prototypes.</p></li><li><p><strong>Implementation</strong>: In this stage, the source code of the platform was developed, following the specifications established in the planning and design stages. An iterative development process was used, with constant testing and adjustments as the project progressed.</p></li><li><p><strong>Launch</strong>: After completing testing and fixing any issues found, the platform was launched and put into production.</p></li></ol><h2 id='project-results'>Project results</h2><p><strong>Codify</strong> achieved its goals of providing an interactive and accessible learning environment for its users, thanks to its intuitive and easy-to-use user interface that made the platform accessible to all skill levels. As a result, <strong>Codify was voted the best project of the first year in systems analysis and development by IBM</strong>, which was a great learning experience and an incredible experience.</p>",
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/payflow-ddaaf.appspot.com/o/Banners%2Fciclebanner.png?alt=media&token=48beb6ca-ee2a-4d50-9874-a51e7b8d59a5",
+            "website": "www.codify.tech",
+            "color": "#31D486"
+        }  
     ]
 }

@@ -108,10 +108,6 @@ export async function getStaticPaths() {
       { params: { slug: 'englishchat' }, locale: 'en' },
       { params: { slug: 'cicle' }, locale: 'pt-BR' },
       { params: { slug: 'cicle' }, locale: 'en' },
-      { params: { slug: 'mentesa' }, locale: 'pt-BR' },
-      { params: { slug: 'mentesa' }, locale: 'en' },
-      { params: { slug: 'navishop' }, locale: 'pt-BR' },
-      { params: { slug: 'navishop' }, locale: 'en' },
     ],
     fallback: false,
   }
