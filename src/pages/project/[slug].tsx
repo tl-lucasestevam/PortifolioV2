@@ -1,3 +1,4 @@
+/* eslint-disable array-callback-return */
 /* eslint-disable react/no-children-prop */
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import { DefaultLayout } from '../../Layouts/DefaultLayout'
@@ -19,37 +20,48 @@ import { useTranslation } from 'next-i18next'
 import { useRouter } from 'next/router'
 import { ArrowUpRight } from 'phosphor-react'
 
+interface IProject {
+  id: string
+  title: string
+  shortDescription: string
+  client: string
+  services: string
+  technologies: string[]
+  link: string
+  description: string
+  imageUrl: string
+  website: string
+  color: string
+}
+
 export default function Project() {
   const router = useRouter()
-  const { id } = router.query
+  const { slug } = router.query
 
   const { t: translate } = useTranslation('projects')
 
-  function getData(field: string) {
-    return translate(`ProjectsData.${Number(id) - 1}.${field}`, {
-      returnObjects: true,
-    })
-  }
+  const data: IProject[] = translate(`ProjectsData`, {
+    returnObjects: true,
+  })
 
-  const technologies: Array<string> = translate(
-    `ProjectsData.${Number(id) - 1}.technologies`,
-    {
-      returnObjects: true,
-    },
-  )
+  const projectInfo = data.find((project) => {
+    if (project.client.toLowerCase() === slug) {
+      return project
+    }
+  }) as IProject
 
   return (
     <DefaultLayout>
       <IntroSection className="container">
         <hr />
-        <h1>{getData('title')}</h1>
-        <p>{getData('shortDescription')}</p>
+        <h1>{projectInfo.title}</h1>
+        <p>{projectInfo.shortDescription}</p>
       </IntroSection>
 
-      <ImageBackground style={{ backgroundColor: `${getData('color')}` }}>
+      <ImageBackground style={{ backgroundColor: `${projectInfo.color}` }}>
         <ImageArea className="container">
           <ImageProject
-            src={getData('imageUrl')}
+            src={projectInfo.imageUrl}
             width={1007}
             height={547}
             alt=""
@@ -60,15 +72,15 @@ export default function Project() {
       <DescriptionSide className="container">
         <LeftSide>
           <InfoSide>
-            <Info title="CLIENT">{getData('client')}</Info>
-            <Info title="SERVICES">{getData('services')}</Info>
+            <Info title="CLIENT">{projectInfo.client}</Info>
+            <Info title="SERVICES">{projectInfo.services}</Info>
             <Info title="TECHNOLOGIES">
-              {technologies.map((tech) => {
+              {projectInfo.technologies.map((tech) => {
                 return <p key={tech}>{tech}</p>
               })}
             </Info>
             <Info title="WEBSITE">
-              <LinkWebsite href={getData('website')}>
+              <LinkWebsite href={projectInfo.website}>
                 <p>{translate('Visit Website')}</p>{' '}
                 <ArrowUpRight size={32} weight="bold" color="#FFF" />
               </LinkWebsite>
@@ -76,7 +88,7 @@ export default function Project() {
           </InfoSide>
         </LeftSide>
         <RightSide>
-          <ProjectContent>{parse(getData('description'))}</ProjectContent>
+          <ProjectContent>{parse(projectInfo.description)}</ProjectContent>
         </RightSide>
       </DescriptionSide>
     </DefaultLayout>
@@ -86,10 +98,20 @@ export default function Project() {
 export async function getStaticPaths() {
   return {
     paths: [
-      { params: { id: '1' }, locale: 'pt-BR' },
-      { params: { id: '1' }, locale: 'en' },
-      { params: { id: '2' }, locale: 'pt-BR' },
-      { params: { id: '2' }, locale: 'en' },
+      { params: { slug: 'codify' }, locale: 'pt-BR' },
+      { params: { slug: 'codify' }, locale: 'en' },
+      { params: { slug: 'petfood' }, locale: 'pt-BR' },
+      { params: { slug: 'petfood' }, locale: 'en' },
+      { params: { slug: 'freeplay' }, locale: 'pt-BR' },
+      { params: { slug: 'freeplay' }, locale: 'en' },
+      { params: { slug: 'englishchat' }, locale: 'pt-BR' },
+      { params: { slug: 'englishchat' }, locale: 'en' },
+      { params: { slug: 'cicle' }, locale: 'pt-BR' },
+      { params: { slug: 'cicle' }, locale: 'en' },
+      { params: { slug: 'mentesa' }, locale: 'pt-BR' },
+      { params: { slug: 'mentesa' }, locale: 'en' },
+      { params: { slug: 'navishop' }, locale: 'pt-BR' },
+      { params: { slug: 'navishop' }, locale: 'en' },
     ],
     fallback: false,
   }

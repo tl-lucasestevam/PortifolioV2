@@ -107,6 +107,7 @@ export const ProjectContent = styled('div', {
 
   ul: {
     listStyle: 'initial',
+    color: '#894433',
   },
 
   'ul, ol': {

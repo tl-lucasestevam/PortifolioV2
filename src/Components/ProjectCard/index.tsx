@@ -18,7 +18,7 @@ export function ProjectCard({ data }: ProjectProps) {
       data-aos="fade-up"
       data-aos-duration="800"
       data-aos-delay="400"
-      href={`/project/${data.id}`}
+      href={`/project/${data.client.toLowerCase()}`}
     >
       <section>
         <TagsArea>
