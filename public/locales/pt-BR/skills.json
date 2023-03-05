@@ -25,13 +25,33 @@
             "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit leo qui"
         },
         {
+            "name": "Next",
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/payflow-ddaaf.appspot.com/o/next.svg?alt=media&token=570a8a95-9dd6-4c2d-80db-9a23da08b4c2",
+            "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit leo qui"
+        },
+        {
             "name": "NodeJs",
             "imageUrl": "https://firebasestorage.googleapis.com/v0/b/payflow-ddaaf.appspot.com/o/node.svg?alt=media&token=a0a2b78b-007f-4ee0-8135-591a123eeb31",
             "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit leo qui"
         },
         {
+            "name": "Jest",
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/payflow-ddaaf.appspot.com/o/Jest.svg?alt=media&token=ddaf642d-a1df-4084-9ec2-39521af2c05f",
+            "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit leo qui"
+        },
+        {
             "name": "MongoDB",
             "imageUrl": "https://firebasestorage.googleapis.com/v0/b/payflow-ddaaf.appspot.com/o/mongodb.svg?alt=media&token=86be6a14-51bc-451e-871d-b0716c9f1583",
+            "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit leo qui"
+        },
+        {
+            "name": "PostgreSQL",
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/payflow-ddaaf.appspot.com/o/postgress.svg?alt=media&token=eff62f74-8854-40b7-8d5e-6f103c9af499",
+            "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit leo qui"
+        },
+        {
+            "name": "IBM Watson",
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/payflow-ddaaf.appspot.com/o/ibm%20watson.svg?alt=media&token=477401fc-921c-4b93-9ff3-34afd04c257c",
             "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit leo qui"
         }
     ]

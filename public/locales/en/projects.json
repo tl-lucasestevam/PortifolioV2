@@ -2,6 +2,7 @@
     "Portfolio": "Portfolio",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit fames turpis pretium bibendum nisl est sagittis aliquam pretium nunc.",
     "Visit Website": "Visit Website",
+    "Visit Github": "Visit Github",
 
     "Title": "Feel free to check out my completed projects.",
     "Button": "See all",
@@ -17,9 +18,10 @@
                 "Node",
                 "MongoDB"
             ],
+            "repository": "https://github.com/Codifyy-tech",
             "description": "<h2 id='about-the-project'>About the project</h2><p><strong>Codify</strong> is a project proposed by IBM that aims to prepare candidates for the job market by providing materials, exercises, and technical tests used by companies in their selection processes. In addition to recommendations for free courses in various technologies that are highly sought after by companies, tips on how to prepare your resume and act in an interview so that it is successful.</p><h2 id='what-was-the-goal-of-the-project'>What are the project goals?            </h2><p>The project goals include:</p><ul><li><p>Providing an interactive and accessible learning environment for users to practice and develop their skills in different programming languages.</p></li><li><p>Providing a variety of learning resources, such as tutorials and exercises, to help users progress in their skills.</p></li><li><p>Creating an intuitive and easy-to-use user interface to make the platform accessible to all skill levels.</p></li><li><p>Keeping the platform up-to-date with the latest trends and technologies in programming.</p></li></ul><h2 id='project-execution'>Project execution</h2><ol><li><p><strong>Planning</strong>: In this stage, the project&#39;s   and scope were defined, as well as the creation of the work schedule and the allocation of resources. A risk management plan was also developed to identify and manage potential issues that could arise during development.</p></li><li><p><strong>Requirements analysis</strong>: In this stage, the needs and expectations of the platform&#39;s users were gathered, as well as the technical requirements necessary for the development of the system. These requirements were documented in a requirements specification document, which served as the basis for the project development.</p></li><li><p><strong>Design</strong>: In this stage, the system architecture was planned, including the definition of the data structure, the choice of technologies to be used, and the creation of user interface prototypes.</p></li><li><p><strong>Implementation</strong>: In this stage, the source code of the platform was developed, following the specifications established in the planning and design stages. An iterative development process was used, with constant testing and adjustments as the project progressed.</p></li><li><p><strong>Launch</strong>: After completing testing and fixing any issues found, the platform was launched and put into production.</p></li></ol><h2 id='project-results'>Project results</h2><p><strong>Codify</strong> achieved its goals of providing an interactive and accessible learning environment for its users, thanks to its intuitive and easy-to-use user interface that made the platform accessible to all skill levels. As a result, <strong>Codify was voted the best project of the first year in systems analysis and development by IBM</strong>, which was a great learning experience and an incredible experience.</p>",
             "imageUrl": "https://firebasestorage.googleapis.com/v0/b/payflow-ddaaf.appspot.com/o/Banners%2Fcodifybanner.webp?alt=media&token=c2a95888-cb29-47f2-90fe-3ec371167a66",
-            "website": "www.codify.tech",
+            "website": "https://codifyy.tech/",
             "color": "#1A75E8"
         },
         {
@@ -31,10 +33,28 @@
                 "Flutter",
                 "Firebase"
             ],
-            "description": "<h2 id='about-the-project'>About the project</h2><p><strong>Codify</strong> is a project proposed by IBM that aims to prepare candidates for the job market by providing materials, exercises, and technical tests used by companies in their selection processes. In addition to recommendations for free courses in various technologies that are highly sought after by companies, tips on how to prepare your resume and act in an interview so that it is successful.</p><h2 id='what-was-the-goal-of-the-project'>What are the project goals?            </h2><p>The project goals include:</p><ul><li><p>Providing an interactive and accessible learning environment for users to practice and develop their skills in different programming languages.</p></li><li><p>Providing a variety of learning resources, such as tutorials and exercises, to help users progress in their skills.</p></li><li><p>Creating an intuitive and easy-to-use user interface to make the platform accessible to all skill levels.</p></li><li><p>Keeping the platform up-to-date with the latest trends and technologies in programming.</p></li></ul><h2 id='project-execution'>Project execution</h2><ol><li><p><strong>Planning</strong>: In this stage, the project&#39;s   and scope were defined, as well as the creation of the work schedule and the allocation of resources. A risk management plan was also developed to identify and manage potential issues that could arise during development.</p></li><li><p><strong>Requirements analysis</strong>: In this stage, the needs and expectations of the platform&#39;s users were gathered, as well as the technical requirements necessary for the development of the system. These requirements were documented in a requirements specification document, which served as the basis for the project development.</p></li><li><p><strong>Design</strong>: In this stage, the system architecture was planned, including the definition of the data structure, the choice of technologies to be used, and the creation of user interface prototypes.</p></li><li><p><strong>Implementation</strong>: In this stage, the source code of the platform was developed, following the specifications established in the planning and design stages. An iterative development process was used, with constant testing and adjustments as the project progressed.</p></li><li><p><strong>Launch</strong>: After completing testing and fixing any issues found, the platform was launched and put into production.</p></li></ol><h2 id='project-results'>Project results</h2><p><strong>Codify</strong> achieved its goals of providing an interactive and accessible learning environment for its users, thanks to its intuitive and easy-to-use user interface that made the platform accessible to all skill levels. As a result, <strong>Codify was voted the best project of the first year in systems analysis and development by IBM</strong>, which was a great learning experience and an incredible experience.</p>",
+            "repository": "https://github.com/DavidAugustoo/Cicle",
+            "description": "<h2>Project Objective:</h2><p>The objective of the Cicle project is to encourage the proper disposal of household waste and generate extra income for users through the application. The project also aims to contribute to resource savings and minimize environmental impacts.</p><p>Cicle is a positive impact startup that seeks to solve social and environmental problems through innovation and technology. The project was developed as a conclusion work of the third year of high school integrated with technical studies at FIAP School, by a group of students passionate about technology and concerned with environmental and social issues.</p><h2>Project Goals:</h2><p>The project goals include:</p><ul><li>Develop an application that allows users to register their household waste, including information about the type of material, quantity, and location;</li><li>Facilitate the collection process of these wastes through partnerships with companies specialized in selective collection;</li><li>Transform these wastes into raw materials and market them to other companies that need these materials, generating income for users;</li><li>Disseminate the importance of proper waste disposal and its benefits for the environment.</li></ul><p>The project aims to change people's relationship with their waste, showing that it is possible to turn trash into a resource and generate economic and social value for the community. In addition, the project seeks to reduce the amount of waste sent to landfills and encourage recycling and reuse of materials.</p><h2>Features:</h2><p>The Cicle application allows users to register their household waste and choose a partner company for collection. The wastes are weighed, and the amount to be paid is automatically calculated by the application, based on the quantity and type of material. Users can follow the entire process, from waste registration to income generation. In addition, the application provides information on the proper disposal of each type of material and tips for reducing waste generation.</p><p>The project is sustainable and generates economic and environmental benefits for all parties involved. Users can earn money from the proper disposal of their waste, and partner companies can reduce their raw material costs and contribute to environmental preservation. In addition, society as a whole benefits from the reduction of waste sent to landfills and from the promotion of sustainability and environmental awareness.</p>",
             "imageUrl": "https://firebasestorage.googleapis.com/v0/b/payflow-ddaaf.appspot.com/o/Banners%2Fciclebanner.png?alt=media&token=48beb6ca-ee2a-4d50-9874-a51e7b8d59a5",
             "website": "www.codify.tech",
             "color": "#31D486"
+        },
+        {
+            "title": "E-sports gear store",
+            "shortDescription":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit fames turpis pretium bibendum nisl est sagittis aliquam pretium nunc.",
+            "client": "Navi",
+            "services": "Web Development",
+            "repository": "https://github.com/DavidAugustoo/NaviShop",
+            "technologies": [
+                "React",
+                "Typescript",
+                "Next",
+                "Strapi"
+            ],
+            "description": "<h2>About the project</h2><p>The NAVI online store was developed with the aim of offering e-sports fans an easy and intuitive shopping experience. The platform was created to allow users to purchase NAVI team clothes quickly and securely, with a responsive and attractive design.</p><h2>Objectives</h2><p>The project was created with the intention of practicing the new features of Next.js 13 and integrating the Strapi payment system into the online store. The main objective was to improve my skills in web development, as well as in e-commerce, applying the best practices and techniques in all stages of the project.</p><h2>Result</h2><p>As a result, the NAVI online store has become a complete and functional platform, offering e-sports fans a pleasant and secure shopping experience. In addition, the project allowed me to improve my skills in web development and e-commerce, preparing me for future projects in this area.</p>",
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/payflow-ddaaf.appspot.com/o/Banners%2Fnavibanner.png?alt=media&token=b3e314c2-2197-4cf6-b648-945ccb52b1ba",
+            "website": "https://navi-shop.vercel.app/",
+            "color": "#FFF123"
         },
         {
             "title": "English conversation platform",
@@ -46,10 +66,26 @@
                 "CSS",
                 "Socket.io"
             ],
+            "repository": "https://github.com/DavidAugustoo/EnglishChat",
             "description": "<h2 id='about-the-project'>About the project</h2><p>The EnglishChat project is an online platform created to help people who want to practice the English language and make new friends. The platform allows users of all ages and experience levels to chat in English with other people who are also learning the language.</p><h2 id='goals-and- '>Goals </h2><p>The goal of this project was to practice the main features of socket.io and node.js. Socket.io is a library that allows for real-time connections between the server and the client, allowing for real-time message exchange through events. Node.js is an execution environment for JavaScript that allows for the creation of server-side applications quickly and efficiently. By working with these tools, it was possible to improve skills in creating applications that require real-time communication, such as chats.</p>",
             "imageUrl": "https://firebasestorage.googleapis.com/v0/b/payflow-ddaaf.appspot.com/o/Banners%2Fenglishchatbanner.png?alt=media&token=c2a8fad1-09bb-40c5-beaf-e470d1201011",
             "website": "https://englishchat.onrender.com/",
             "color": "#1991EB"
+        },    
+        {
+            "title": "Game recommendation platform",
+            "shortDescription":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit fames turpis pretium bibendum nisl est sagittis aliquam pretium nunc.",
+            "client": "FreePlay",
+            "services": "Desenvolvimento web",
+            "technologies": [
+                "HTML",
+                "CSS"
+            ],
+            "repository": "https://github.com/DavidAugustoo/FreePlay",
+            "description": "<h2 id='about-the-project'>About the project</h2><p><strong>FreePlay</strong> is a collection of free games so you don&#39;t waste time choosing what to play. This collection was made especially for you, so you can have fun without paying a single cent!</p><h2 id='goals'>Goals</h2><p>The goal of the FreePlay project is to create a collection of free games for users to enjoy without having to pay. In addition, the project also aims to practice the main features of HTML, CSS and JavaScript, such as API request and manipulation, DOM, responsiveness, and array methods.</p><h2 id='project-features'>Project features</h2><p>The FreePlay project has two main features: searching for games and filtering games by category and platform. The search feature allows users to find specific games by typing keywords in the search bar. The filter feature, on the other hand, allows users to filter the list of games according to category (e.g. action, adventure, sports) and platform (e.g. PC, PlayStation, Xbox). This helps users find the games that best fit their interests and devices.</p>            ",
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/payflow-ddaaf.appspot.com/o/Banners%2Ffreeplaybanner.png?alt=media&token=c1ce148d-7889-4f6f-bbd8-694918b54635",
+            "website": "https://freeplayy.netlify.app/",
+            "color": "#171B1F"
         },
         {
             "title": "Online Pet Shop platform",
@@ -60,24 +96,11 @@
                 "HTML",
                 "CSS"
             ],
+            "repository": "https://github.com/DavidAugustoo/PetFood",
             "description": "<h2 id='about-the-project'>About the project</h2><p>Petfood is an e-commerce website focused on products for animals. We provide specialized product lines such as organic kitchen, natural ration for small batch groups, and a wide selection of treats for dogs and cats.</p><h2 id=' '> </h2><p>The goal of this project was to improve knowledge in HTML, CSS and JavaScript, with special attention to the use of the DOM (Document Object Model). The DOM allows manipulation of HTML document elements through code, which is essential for creating dynamic and interactive websites. In addition, this project also involved the practice of responsiveness, that is, the ability of a site to adapt to different screen sizes and devices.</p><p>Another area of focus was the use of array methods in JavaScript, such as filter, map and reduce. These methods are pre-defined functions that make it easier to manipulate arrays, allowing, for example, to filter elements, transform them or reduce them to a single information.</p><p>Finally, the project also included the practice of JSON, a JavaScript object notation that facilitates the exchange of data between systems. With the use of JSON, it is possible to represent information in a structured and readable way for both machines and humans, making it easier to integrate different systems and platforms.</p>",
             "imageUrl": "https://firebasestorage.googleapis.com/v0/b/payflow-ddaaf.appspot.com/o/Banners%2Fpetfoodbanner.png?alt=media&token=36fae887-a643-47d8-911a-8c2cf55dc89a",
             "website": "https://petfoood.netlify.app/",
             "color": "#392524"
-        },
-        {
-            "title": "Game recommendation platform",
-            "shortDescription":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit fames turpis pretium bibendum nisl est sagittis aliquam pretium nunc.",
-            "client": "FreePlay",
-            "services": "Desenvolvimento web",
-            "technologies": [
-                "HTML",
-                "CSS"
-            ],
-            "description": "<h2 id='about-the-project'>About the project</h2><p><strong>FreePlay</strong> is a collection of free games so you don&#39;t waste time choosing what to play. This collection was made especially for you, so you can have fun without paying a single cent!</p><h2 id='goals'>Goals</h2><p>The goal of the FreePlay project is to create a collection of free games for users to enjoy without having to pay. In addition, the project also aims to practice the main features of HTML, CSS and JavaScript, such as API request and manipulation, DOM, responsiveness, and array methods.</p><h2 id='project-features'>Project features</h2><p>The FreePlay project has two main features: searching for games and filtering games by category and platform. The search feature allows users to find specific games by typing keywords in the search bar. The filter feature, on the other hand, allows users to filter the list of games according to category (e.g. action, adventure, sports) and platform (e.g. PC, PlayStation, Xbox). This helps users find the games that best fit their interests and devices.</p>            ",
-            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/payflow-ddaaf.appspot.com/o/Banners%2Ffreeplaybanner.png?alt=media&token=c1ce148d-7889-4f6f-bbd8-694918b54635",
-            "website": "https://freeplayy.netlify.app/",
-            "color": "#171B1F"
         }
     ]
 }

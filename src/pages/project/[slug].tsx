@@ -24,6 +24,7 @@ interface IProject {
   id: string
   title: string
   shortDescription: string
+  repository: string
   client: string
   services: string
   technologies: string[]
@@ -55,7 +56,6 @@ export default function Project() {
       <IntroSection className="container">
         <hr />
         <h1>{projectInfo.title}</h1>
-        <p>{projectInfo.shortDescription}</p>
       </IntroSection>
 
       <ImageBackground style={{ backgroundColor: `${projectInfo.color}` }}>
@@ -80,8 +80,14 @@ export default function Project() {
               })}
             </Info>
             <Info title="WEBSITE">
-              <LinkWebsite href={projectInfo.website}>
+              <LinkWebsite href={projectInfo.website} target="_blank">
                 <p>{translate('Visit Website')}</p>{' '}
+                <ArrowUpRight size={32} weight="bold" color="#FFF" />
+              </LinkWebsite>
+            </Info>
+            <Info title="REPOSITORY">
+              <LinkWebsite href={projectInfo.repository} target="_blank">
+                <p>{translate('Visit Github')}</p>{' '}
                 <ArrowUpRight size={32} weight="bold" color="#FFF" />
               </LinkWebsite>
             </Info>
@@ -108,6 +114,8 @@ export async function getStaticPaths() {
       { params: { slug: 'englishchat' }, locale: 'en' },
       { params: { slug: 'cicle' }, locale: 'pt-BR' },
       { params: { slug: 'cicle' }, locale: 'en' },
+      { params: { slug: 'navi' }, locale: 'pt-BR' },
+      { params: { slug: 'navi' }, locale: 'en' },
     ],
     fallback: false,
   }

@@ -2,6 +2,7 @@
     "Portfolio": "Portfólio",
     "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit fames turpis pretium bibendum nisl est sagittis aliquam pretium nunc.",
     "Visit Website": "Visitar Site",
+    "Visit Github": "Visitar Github",
 
     "Title": "Sinta-se à vontade para ver meus projetos finalizados",
     "Button": "Ver todos",
@@ -17,11 +18,43 @@
                 "Node",
                 "MongoDB"
             ],
-            "link": "codifyy.tech",
+            "repository": "https://github.com/Codifyy-tech",
             "description": "<h2 id='sobre-o-projeto'>Sobre o projeto</h2><p>A <strong>Codify</strong> é um projeto proposto pela IBM, que visa preparar candidatos para o mercado de trabalho, fornecendo materiais, exercícios e testes técnicos usados por empresas em seus processos seletivos. Além de recomendação de cursos gratuitos em diferentes tecnologias que são altamente solicitadas pelas empresas, dicas sobre como preparar seu currículo e agir em uma entrevista para que ela seja bem sucedida. </p><h2 id='metas-do-projeto'>Quais são as metas do projeto?</h2><p>As metas do projeto incluem:</p><ul><li><p>Fornecer um ambiente de aprendizagem interativo e acessível para que os usuários possam praticar e desenvolver suas habilidades em diferentes linguagens de programação.</p></li><li><p>Fornecer uma variedade de recursos de aprendizagem, como tutoriais e exercícios, para ajudar os usuários a progredir em suas habilidades.</p></li><li><p>Criar uma interface de usuário intuitiva e fácil de usar para tornar a plataforma acessível a todos os níveis de habilidade.</p></li><li><p>Manter a plataforma atualizada com as últimas tendências e tecnologias em programação.</p></li></ul><h2 id='execu-o-do-projeto'>Execução do projeto</h2><ol><li><p><strong>Planejamento</strong>: nesta etapa, foi realizada a definição dos objetivos e escopo do projeto, bem como a criação do cronograma de trabalho e a alocação de recursos. Também foi elaborado um plano de gerenciamento de riscos para identificar e gerenciar possíveis problemas que poderiam surgir ao longo do desenvolvimento.</p></li><li><p><strong>Análise de requisitos</strong>: nesta etapa, foram reunidas as necessidades e expectativas dos usuários da plataforma, bem como os requisitos técnicos necessários para o desenvolvimento do sistema. Esses requisitos foram documentados em um documento de especificação de requisitos, que serviu como base para o desenvolvimento do projeto.</p></li><li><p> <strong>Desenho</strong>: nesta etapa, foi realizado o planejamento da arquitetura do sistema, incluindo a definição da estrutura de dados, a escolha das tecnologias a serem utilizadas e a criação de protótipos de interface do usuário.</p></li><li><p> <strong>Implementação</strong>: nesta etapa, foi realizado o desenvolvimento do código fonte da plataforma, seguindo as especificações estabelecidas no planejamento e no  <strong>Desenho</strong>. Foi utilizado um processo de desenvolvimento iterativo, com a realização de testes e ajustes constantes à medida que o projeto avançava.</p></li><li><p> <strong>Lançamento</strong>: após a conclusão dos testes e a correção de eventuais problemas encontrados, a plataforma foi lançada e colocada em produção.</p></li></ol><h2 id='resultados-do-projeto'>Resultados do projeto</h2><p>A <strong>Codify</strong> alcançou suas metas de fornecer um ambiente de aprendizado interativo e acessível aos seus usuários, graças à sua interface de usuário intuitiva e fácil de usar, que tornou a plataforma acessível a todos os níveis de habilidade.   Como resultado, a <strong>Codify foi eleita o melhor projeto do primeiro ano de análise e desenvolvimento de sistemas pela IBM</strong> , o que foi um grande aprendizado e uma experiência incrível.</p>",
             "imageUrl": "https://firebasestorage.googleapis.com/v0/b/payflow-ddaaf.appspot.com/o/Banners%2Fcodifybanner.webp?alt=media&token=c2a95888-cb29-47f2-90fe-3ec371167a66",
-            "website": "www.codify.tech",
+            "website": "https://codifyy.tech/",
             "color": "#1A75E8"
+        },            
+        {
+            "title": "Household garbage sales app",
+            "shortDescription":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit fames turpis pretium bibendum nisl est sagittis aliquam pretium nunc.",
+            "client": "Cicle",
+            "services": "App Mobile",
+            "repository": "https://github.com/DavidAugustoo/Cicle",
+            "technologies": [
+                "Flutter",
+                "Firebase"
+            ],
+            "description": "<h2>Objetivo do Projeto:</h2><p>O objetivo do projeto Cicle é incentivar a destinação correta de resíduos domésticos e gerar uma renda extra para os usuários através do aplicativo. O projeto visa também contribuir para a economia de recursos e minimizar impactos ambientais.</p><p>O Cicle é uma startup de impacto positivo que busca solucionar problemas sociais e ambientais através da inovação e tecnologia. O projeto foi desenvolvido como trabalho de conclusão de curso do 3º ano do ensino médio integrado ao técnico na FIAP School, por um grupo de estudantes apaixonados por tecnologia e preocupados com as questões ambientais e sociais.</p><h2>Metas do Projeto:</h2><p>As metas do projeto incluem:</p><ul><li>Desenvolver um aplicativo que permita que os usuários cadastrem seus resíduos domésticos, incluindo informações sobre o tipo de material, quantidade e localização;</li><li>Facilitar o processo de coleta desses resíduos por meio de parcerias com empresas especializadas em coleta seletiva;</li><li>Transformar esses resíduos em matéria-prima e comercializá-los para outras empresas que necessitam desses materiais, gerando uma renda para os usuários;</li><li>Divulgar a importância da destinação correta de resíduos e seus benefícios para o meio ambiente.</li></ul><p>O projeto pretende mudar a relação das pessoas com seus resíduos, mostrando que é possível transformar o lixo em recurso e gerar valor econômico e social para a comunidade. Além disso, o projeto busca reduzir a quantidade de resíduos enviados para aterros sanitários e incentivar a reciclagem e reutilização de materiais.</p><h2>Funcionalidades:</h2><p>O aplicativo Cicle permite que os usuários cadastrem seus resíduos domésticos e escolham uma empresa parceira para coleta. Os resíduos são pesados e o valor a ser pago é calculado automaticamente pelo aplicativo, baseado na quantidade e tipo de material. Os usuários podem acompanhar todo o processo, desde o cadastro dos resíduos até a geração de renda. Além disso, o aplicativo disponibiliza informações sobre a destinação correta de cada tipo de material e dicas para reduzir a geração de resíduos.</p><p>O projeto é sustentável e gera benefícios econômicos e ambientais para todas as partes envolvidas. Os usuários podem ganhar dinheiro com o descarte correto de seus resíduos e as empresas parceiras podem reduzir seus custos de matéria-prima e contribuir para a preservação do meio ambiente. Além disso, a sociedade como um todo se beneficia com a redução da quantidade de resíduos destinados aos aterros sanitários e com a promoção da sustentabilidade e consciência ambiental.</p>",
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/payflow-ddaaf.appspot.com/o/Banners%2Fciclebanner.png?alt=media&token=48beb6ca-ee2a-4d50-9874-a51e7b8d59a5",
+            "website": "www.codify.tech",
+            "color": "#31D486"
+        },
+        {
+            "title": "Loja de artigos e-sports",
+            "shortDescription":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit fames turpis pretium bibendum nisl est sagittis aliquam pretium nunc.",
+            "client": "Navi",
+            "services": "Desenvolvimento web",
+            "repository": "https://github.com/DavidAugustoo/NaviShop",
+            "technologies": [
+                "React",
+                "Typescript",
+                "Next",
+                "Strapi"
+            ],
+            "description": "<h2>Sobre o projeto</h2><p>A loja online NAVI foi desenvolvida com o objetivo de oferecer aos fãs do time de e-sports uma experiência de compra fácil e intuitiva. A plataforma foi criada para permitir que os usuários possam adquirir roupas do time NAVI de forma rápida e segura, com um design responsivo e atraente.</p><h2>Objetivos</h2><p>O projeto foi criado com o intuito de praticar os novos recursos do Next.js 13 e integrar o sistema de pagamento Strapi à loja online. O principal objetivo era aprimorar minhas habilidades em desenvolvimento web, bem como em e-commerce, aplicando as melhores práticas e técnicas em todas as etapas do projeto.</p><h2>Resultado</h2><p>Como resultado, a loja online NAVI se tornou uma plataforma completa e funcional, que oferece aos fãs do time de e-sports uma experiência de compra agradável e segura. Além disso, o projeto permitiu que eu aperfeiçoasse minhas habilidades em desenvolvimento web e em e-commerce, preparando-me para futuros projetos nessa área.</p>",
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/payflow-ddaaf.appspot.com/o/Banners%2Fnavibanner.png?alt=media&token=b3e314c2-2197-4cf6-b648-945ccb52b1ba",
+            "website": "https://navi-shop.vercel.app/",
+            "color": "#FFF123"
         },
         {
             "title": "Plataforma de bate-papo em inglês",
@@ -33,24 +66,11 @@
                 "CSS",
                 "Socket.io"
             ],
+            "repository": "https://github.com/DavidAugustoo/EnglishChat",
             "description": "<h2 id='sobre-o-projeto'>Sobre o projeto</h2><p>O projeto <strong>EnglishChat</strong> é uma plataforma online criada para ajudar pessoas que desejam praticar o idioma inglês e fazer novas amizades. A plataforma permite que usuários de todas as idades e níveis de experiência conversem em inglês com outras pessoas que também estão aprendendo o idioma.</p><h2 id='metas-e-objetivos'>Objetivos</h2><p>O projeto tinha como objetivo praticar os principais recursos do socket.io e do node.js. O socket.io é uma biblioteca que permite a criação de conexões em tempo real entre o servidor e o cliente, permitindo a troca de mensagens em tempo real através de eventos. Já o node.js é um ambiente de execução para JavaScript que permite a criação de aplicações server-side de maneira rápida e eficiente. Ao trabalhar com essas ferramentas, foi possível aperfeiçoar minhas habilidades na criação de aplicações que necessitam de comunicação em tempo real, como chats.</p>",
             "imageUrl": "https://firebasestorage.googleapis.com/v0/b/payflow-ddaaf.appspot.com/o/Banners%2Fenglishchatbanner.png?alt=media&token=c2a8fad1-09bb-40c5-beaf-e470d1201011",
             "website": "https://englishchat.onrender.com/",
             "color": "#1991EB"
-        },
-        {
-            "title": "Plataforma de Pet Shop online",
-            "shortDescription":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit fames turpis pretium bibendum nisl est sagittis aliquam pretium nunc.",
-            "client": "PetFood",
-            "services": "Desenvolvimento web",
-            "technologies": [
-                "HTML",
-                "CSS"
-            ],
-            "description": "<h2 id='sobre-o-projeto'>Sobre o projeto</h2><p><strong>Petfood</strong> é um site de comércio eletrônico focado em produtos para animais. Fornecemos linhas de produtos especializados, tais como cozinha orgânica, ração natural para grupos em lotes pequenos e uma seleção ampla de guloseimas para cães e gatos.</p><h2 id='objetivos'>Objetivos</h2><p>O objetivo deste projeto era aprimorar os conhecimentos em HTML, CSS e JavaScript, com especial atenção no uso do DOM (Document Object Model). O DOM permite manipular elementos do documento HTML através de código, o que é fundamental para criar sites dinâmicos e interativos. Além disso, este projeto também envolveu a prática de responsividade, ou seja, a capacidade de um site se adaptar a diferentes tamanhos de tela e dispositivos.</p><p>Outra área de foco foi o uso de métodos de array em JavaScript, como o filter, map e reduce. Estes métodos são funções pré-definidas que facilitam a manipulação de arrays, permitindo, por exemplo, filtrar elementos, transformá-los ou reduzi-los a uma única informação.</p><p>Por fim, o projeto também incluiu a prática de JSON, uma notação de objetos JavaScript que facilita a troca de dados entre sistemas. Com o uso de JSON, é possível representar informações de maneira estruturada e legível tanto para máquinas quanto para humanos, o que torna mais fácil integrar diferentes sistemas e plataformas.</p>",
-            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/payflow-ddaaf.appspot.com/o/Banners%2Fpetfoodbanner.png?alt=media&token=36fae887-a643-47d8-911a-8c2cf55dc89a",
-            "website": "https://petfoood.netlify.app/",
-            "color": "#392524"
         },
         {
             "title": "Plataforma de recomendações de jogos",
@@ -61,24 +81,26 @@
                 "HTML",
                 "CSS"
             ],
+            "repository": "https://github.com/DavidAugustoo/FreePlay",
             "description": "<h2 id='sobre-o-projeto'>Sobre o projeto</h2><p><strong>FreePlay</strong> é uma coleção de jogos gratuitos para que você não perca tempo escolhendo o que vai jogar. Esta coleção foi feita especialmente para você, assim você pode se divertir sem pagar um único centavo!</p><h2 id='objetivo'>Objetivo</h2><p>O objetivo do projeto FreePlay é criar uma coleção de jogos gratuitos para que os usuários possam se divertir sem precisar pagar. Além disso, o projeto também visa praticar os principais recursos de HTML, CSS e JavaScript, como requisição e manipulação de API, DOM, responsividade e métodos de array.</p><h2 id='funcionalidades'>Funcionalidades</h2><p>O projeto FreePlay conta com duas funcionalidades principais: pesquisar jogos e filtrar jogos por categoria e plataforma. A funcionalidade de pesquisa permite que os usuários encontrem jogos específicos digitando palavras-chave na barra de pesquisa. A funcionalidade de filtro, por sua vez, permite que os usuários filtrem a lista de jogos de acordo com a categoria (por exemplo, ação, aventura, esportes) e a plataforma (por exemplo, PC, PlayStation, Xbox). Isso ajuda os usuários a encontrar os jogos que mais se adequam aos seus interesses e dispositivos.</p>",
             "imageUrl": "https://firebasestorage.googleapis.com/v0/b/payflow-ddaaf.appspot.com/o/Banners%2Ffreeplaybanner.png?alt=media&token=c1ce148d-7889-4f6f-bbd8-694918b54635",
             "website": "https://freeplayy.netlify.app/",
             "color": "#171B1F"
         },
         {
-            "title": "Household garbage sales app",
+            "title": "Plataforma de Pet Shop online",
             "shortDescription":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit fames turpis pretium bibendum nisl est sagittis aliquam pretium nunc.",
-            "client": "Cicle",
-            "services": "App Mobile",
+            "client": "PetFood",
+            "services": "Desenvolvimento web",
             "technologies": [
-                "Flutter",
-                "Firebase"
+                "HTML",
+                "CSS"
             ],
-            "description": "<h2 id='about-the-project'>About the project</h2><p><strong>Codify</strong> is a project proposed by IBM that aims to prepare candidates for the job market by providing materials, exercises, and technical tests used by companies in their selection processes. In addition to recommendations for free courses in various technologies that are highly sought after by companies, tips on how to prepare your resume and act in an interview so that it is successful.</p><h2 id='what-was-the-goal-of-the-project'>What are the project goals?            </h2><p>The project goals include:</p><ul><li><p>Providing an interactive and accessible learning environment for users to practice and develop their skills in different programming languages.</p></li><li><p>Providing a variety of learning resources, such as tutorials and exercises, to help users progress in their skills.</p></li><li><p>Creating an intuitive and easy-to-use user interface to make the platform accessible to all skill levels.</p></li><li><p>Keeping the platform up-to-date with the latest trends and technologies in programming.</p></li></ul><h2 id='project-execution'>Project execution</h2><ol><li><p><strong>Planning</strong>: In this stage, the project&#39;s   and scope were defined, as well as the creation of the work schedule and the allocation of resources. A risk management plan was also developed to identify and manage potential issues that could arise during development.</p></li><li><p><strong>Requirements analysis</strong>: In this stage, the needs and expectations of the platform&#39;s users were gathered, as well as the technical requirements necessary for the development of the system. These requirements were documented in a requirements specification document, which served as the basis for the project development.</p></li><li><p><strong>Design</strong>: In this stage, the system architecture was planned, including the definition of the data structure, the choice of technologies to be used, and the creation of user interface prototypes.</p></li><li><p><strong>Implementation</strong>: In this stage, the source code of the platform was developed, following the specifications established in the planning and design stages. An iterative development process was used, with constant testing and adjustments as the project progressed.</p></li><li><p><strong>Launch</strong>: After completing testing and fixing any issues found, the platform was launched and put into production.</p></li></ol><h2 id='project-results'>Project results</h2><p><strong>Codify</strong> achieved its goals of providing an interactive and accessible learning environment for its users, thanks to its intuitive and easy-to-use user interface that made the platform accessible to all skill levels. As a result, <strong>Codify was voted the best project of the first year in systems analysis and development by IBM</strong>, which was a great learning experience and an incredible experience.</p>",
-            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/payflow-ddaaf.appspot.com/o/Banners%2Fciclebanner.png?alt=media&token=48beb6ca-ee2a-4d50-9874-a51e7b8d59a5",
-            "website": "www.codify.tech",
-            "color": "#31D486"
-        }  
+            "repository": "https://github.com/DavidAugustoo/PetFood",
+            "description": "<h2 id='sobre-o-projeto'>Sobre o projeto</h2><p><strong>Petfood</strong> é um site de comércio eletrônico focado em produtos para animais. Fornecemos linhas de produtos especializados, tais como cozinha orgânica, ração natural para grupos em lotes pequenos e uma seleção ampla de guloseimas para cães e gatos.</p><h2 id='objetivos'>Objetivos</h2><p>O objetivo deste projeto era aprimorar os conhecimentos em HTML, CSS e JavaScript, com especial atenção no uso do DOM (Document Object Model). O DOM permite manipular elementos do documento HTML através de código, o que é fundamental para criar sites dinâmicos e interativos. Além disso, este projeto também envolveu a prática de responsividade, ou seja, a capacidade de um site se adaptar a diferentes tamanhos de tela e dispositivos.</p><p>Outra área de foco foi o uso de métodos de array em JavaScript, como o filter, map e reduce. Estes métodos são funções pré-definidas que facilitam a manipulação de arrays, permitindo, por exemplo, filtrar elementos, transformá-los ou reduzi-los a uma única informação.</p><p>Por fim, o projeto também incluiu a prática de JSON, uma notação de objetos JavaScript que facilita a troca de dados entre sistemas. Com o uso de JSON, é possível representar informações de maneira estruturada e legível tanto para máquinas quanto para humanos, o que torna mais fácil integrar diferentes sistemas e plataformas.</p>",
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/payflow-ddaaf.appspot.com/o/Banners%2Fpetfoodbanner.png?alt=media&token=36fae887-a643-47d8-911a-8c2cf55dc89a",
+            "website": "https://petfoood.netlify.app/",
+            "color": "#392524"
+        } 
     ]
 }
