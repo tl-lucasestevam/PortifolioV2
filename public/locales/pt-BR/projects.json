@@ -40,6 +40,22 @@
             "color": "#31D486"
         },
         {
+            "title": "Plataforma de gerenciamento de consultas",
+            "shortDescription":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit fames turpis pretium bibendum nisl est sagittis aliquam pretium nunc.",
+            "client": "MenteSã",
+            "services": "Web Development",
+            "repository": "https://github.com/orgs/psychologist-center/repositories",
+            "technologies": [
+                "React",
+                "Nodejs",
+                "Mongodb"
+            ],
+            "description": "<h2>Sobre o projeto</h2><p>O MenteSã é uma aplicação de software desenvolvida para ajudar psiquiatras a gerenciarem suas consultas e acompanhamentos com pacientes de forma organizada e eficiente. A plataforma permite o registro de profissionais, pacientes e sessões, tornando o processo de acompanhamento dos pacientes mais fácil e eficaz.</p><h2>Objetivos</h2><p>O objetivo principal do projeto MenteSã é ajudar os profissionais de saúde mental a otimizarem seu tempo e aumentarem sua eficiência no gerenciamento das sessões de pacientes. Para alcançar esse objetivo, foram utilizadas ferramentas e tecnologias que facilitam o processo de registro de sessões, a organização de dados e a comunicação com outros profissionais de saúde.</p><h2>Funcionalidades</h2><p>A principal funcionalidade do MenteSã é permitir o registro de sessões de pacientes por psiquiatras, o que ajuda a otimizar o gerenciamento e o acompanhamento dos pacientes. Além disso, o software permite a criação de perfis de profissionais e pacientes, facilitando a organização e o acesso às informações relevantes. Outra funcionalidade importante é a possibilidade de monitorar e gerenciar várias bases de dados através de um painel de controle intuitivo, que oferece uma visão geral do andamento das consultas e dos pacientes.</p>",
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/payflow-ddaaf.appspot.com/o/Banners%2Fmentesabanner.png?alt=media&token=35544aa5-7393-42b9-9ee3-27dcae22f62a",
+            "website": "https://mente-sa.vercel.app/",
+            "color": "#7317E9"
+        },
+        {
             "title": "Loja de artigos e-sports",
             "shortDescription":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit fames turpis pretium bibendum nisl est sagittis aliquam pretium nunc.",
             "client": "Navi",

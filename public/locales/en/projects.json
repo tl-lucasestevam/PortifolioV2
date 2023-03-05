@@ -40,6 +40,22 @@
             "color": "#31D486"
         },
         {
+            "title": "Query management platform",
+            "shortDescription":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit fames turpis pretium bibendum nisl est sagittis aliquam pretium nunc.",
+            "client": "MenteSã",
+            "services": "Web Development",
+            "repository": "https://github.com/orgs/psychologist-center/repositories",
+            "technologies": [
+                "React",
+                "Nodejs",
+                "Mongodb"
+            ],
+            "description": "<h2>About the project</h2><p>MenteSã is a software application developed to assist psychiatrists in managing their patient consultations and follow-ups in an organized and efficient manner. The platform allows for the registration of professionals, patients, and sessions, making the patient monitoring process easier and more effective.</p><h2>Objectives</h2><p>The main objective of the MenteSã project is to help mental health professionals optimize their time and increase their efficiency in managing patient sessions. To achieve this objective, tools and technologies were used that facilitate the session registration process, data organization, and communication with other healthcare professionals.</p><h2>Functionalities</h2><p>The main functionality of MenteSã is to allow psychiatrists to register patient sessions, which helps optimize patient management and monitoring. Additionally, the software allows for the creation of professional and patient profiles, facilitating organization and access to relevant information. Another important functionality is the ability to monitor and manage multiple databases through an intuitive control panel that provides an overview of consultations and patients' progress.</p>",
+            "imageUrl": "https://firebasestorage.googleapis.com/v0/b/payflow-ddaaf.appspot.com/o/Banners%2Fmentesabanner.png?alt=media&token=35544aa5-7393-42b9-9ee3-27dcae22f62a",
+            "website": "https://mente-sa.vercel.app/",
+            "color": "#7317E9"
+        },
+        {
             "title": "E-sports gear store",
             "shortDescription":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit fames turpis pretium bibendum nisl est sagittis aliquam pretium nunc.",
             "client": "Navi",

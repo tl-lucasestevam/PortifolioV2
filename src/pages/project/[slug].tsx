@@ -116,6 +116,8 @@ export async function getStaticPaths() {
       { params: { slug: 'cicle' }, locale: 'en' },
       { params: { slug: 'navi' }, locale: 'pt-BR' },
       { params: { slug: 'navi' }, locale: 'en' },
+      { params: { slug: 'mentesã' }, locale: 'pt-BR' },
+      { params: { slug: 'mentesã' }, locale: 'en' },
     ],
     fallback: false,
   }
