@@ -1,4 +1,5 @@
 import { useTranslation } from 'next-i18next'
+import Link from 'next/link'
 import { ArrowRight } from 'phosphor-react'
 import { IProjectInfo } from '../../pages/projects'
 import { Button } from '../Button'
@@ -41,11 +42,13 @@ export function Projects() {
             >
               <h1>{translate('Title')}</h1>
 
-              <Button
-                bg="outlined"
-                text={translate('Button')}
-                icon={<ArrowRight size={24} weight="bold" />}
-              />
+              <Link href="/projects">
+                <Button
+                  bg="outlined"
+                  text={translate('Button')}
+                  icon={<ArrowRight size={24} weight="bold" />}
+                />
+              </Link>
             </DescriptionSide>
 
             <ProjectCard data={projet1} />

@@ -10,12 +10,14 @@ export const globalStyles = globalCss({
 
   html: {
     fontFamily: 'Poppins, sans-serif',
+    scrollBehavior: 'smooth',
   },
 
   body: {
     '-webkit-font-smoothing': 'antialised',
     backgroundColor: '$gray800',
     color: '$gray300',
+    scrollBehavior: 'smooth',
   },
 
   '.container': {

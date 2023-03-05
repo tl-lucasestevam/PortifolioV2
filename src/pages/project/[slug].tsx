@@ -19,6 +19,7 @@ import parse from 'html-react-parser'
 import { useTranslation } from 'next-i18next'
 import { useRouter } from 'next/router'
 import { ArrowUpRight } from 'phosphor-react'
+import Head from 'next/head'
 
 interface IProject {
   id: string
@@ -53,6 +54,9 @@ export default function Project() {
 
   return (
     <DefaultLayout>
+      <Head>
+        <title>David Augusto | {projectInfo.client}</title>
+      </Head>
       <IntroSection className="container">
         <hr />
         <h1>{projectInfo.title}</h1>

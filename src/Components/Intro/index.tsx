@@ -14,6 +14,7 @@ import reactLogo from '../../assets/react.svg'
 import nodeLogo from '../../assets/node.svg'
 import { useTranslation } from 'next-i18next'
 import parse from 'html-react-parser'
+import Link from 'next/link'
 
 export function Intro() {
   const { t: translate } = useTranslation(['home'])
@@ -32,11 +33,13 @@ export function Intro() {
             <p>{translate('Description')}</p>
           </div>
 
-          <Button
-            bg="outlined"
-            text={translate('ButtonTitle')}
-            icon={<ArrowRight size={24} weight="bold" />}
-          />
+          <Link href="/#about">
+            <Button
+              bg="outlined"
+              text={translate('ButtonTitle')}
+              icon={<ArrowRight size={24} weight="bold" />}
+            />
+          </Link>
         </TextBox>
       </DescriptionSide>
       <ImageSide>

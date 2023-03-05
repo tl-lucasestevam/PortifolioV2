@@ -37,7 +37,13 @@
 
     "ExperienceInfo": [
         {
-            "period": "Apr 2022 - Current",
+            "period": "Jan 2023 - Current",
+            "title": "Intern",
+            "description": "<div>During my internship at Intelliway, I had the opportunity to work as an AI developer in the company's technology division. Some of the main activities I carried out included:</div> <div>- Building scalable and performant Rest API's using Node.js</div> <div>- Developing interaction flows with chatbots using IBM Watson</div><div>- Modeling and programming for databases, identifying entities and relationships between them to build efficient information systems</div><div>- Working in an Agile and DevOps environment, which allowed me to gain experience in iterative and collaborative software development methodologies</div <div>- Creating new features and maintaining systems, contributing to the continuous improvement of the company's systems' performance and quality.</div>",
+            "company": "Audaces"
+        },
+        {
+            "period": "Apr 2022 - Dez 2022",
             "title": "Intern",
             "description": "<div>During my internship at Intelliway, I had the opportunity to work as an AI developer in the company's technology division. Some of the main activities I carried out included:</div> <div>- Building scalable and performant Rest API's using Node.js</div> <div>- Developing interaction flows with chatbots using IBM Watson</div><div>- Modeling and programming for databases, identifying entities and relationships between them to build efficient information systems</div><div>- Working in an Agile and DevOps environment, which allowed me to gain experience in iterative and collaborative software development methodologies</div <div>- Creating new features and maintaining systems, contributing to the continuous improvement of the company's systems' performance and quality.</div>",
             "company": "Intelliway"

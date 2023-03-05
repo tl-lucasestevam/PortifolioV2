@@ -1,5 +1,6 @@
 import { useTranslation } from 'next-i18next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import Head from 'next/head'
 import { ProjectCard } from '../../Components/ProjectCard'
 import { DefaultLayout } from '../../Layouts/DefaultLayout'
 import {
@@ -30,6 +31,9 @@ export default function Projects() {
 
   return (
     <DefaultLayout>
+      <Head>
+        <title>David Augusto | Projects</title>
+      </Head>
       <ProjectsContainer className="container">
         <IntroSection>
           <hr />

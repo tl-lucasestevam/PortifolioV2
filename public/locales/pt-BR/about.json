@@ -32,7 +32,13 @@
     ],
     "ExperienceInfo": [
         {
-            "period": "Abr 2022 - Atual",
+            "period": "Jan 2023 - Atual",
+            "title": "Desenvolvedor Full-Stack",
+            "description": "<div>Durante meu estágio na Intelliway, tive a oportunidade de trabalhar como desenvolvedor de IA na divisão de tecnologia da empresa. Algumas das principais atividades que exercia incluíam:</div> <div>- Construção de Rest API's escalaveis e performativas utilizando Node.js</div> <div>- Desenvolvimento de fluxos de interação com chatbots utilizando IBM Watson</div> <div>- Modelagem e programação para banco de dados, identificando entidades e relacionamentos entre elas para a construção de sistemas de informação eficientes</div> <div>- Trabalho em ambiente Ágil e DevOps, o que me permitiu adquirir experiência em metodologias de desenvolvimento de software iterativas e colaborativas</div> <div>- Criação de novas funcionalidades e manutenção de sistemas, contribuindo para a melhoria contínua do desempenho e da qualidade dos sistemas da empresa.</div>",
+            "company": "Audaces"
+        },
+        {
+            "period": "Abr 2022 - Dez 2022",
             "title": "Estagiário",
             "description": "<div>Durante meu estágio na Intelliway, tive a oportunidade de trabalhar como desenvolvedor de IA na divisão de tecnologia da empresa. Algumas das principais atividades que exercia incluíam:</div> <div>- Construção de Rest API's escalaveis e performativas utilizando Node.js</div> <div>- Desenvolvimento de fluxos de interação com chatbots utilizando IBM Watson</div> <div>- Modelagem e programação para banco de dados, identificando entidades e relacionamentos entre elas para a construção de sistemas de informação eficientes</div> <div>- Trabalho em ambiente Ágil e DevOps, o que me permitiu adquirir experiência em metodologias de desenvolvimento de software iterativas e colaborativas</div> <div>- Criação de novas funcionalidades e manutenção de sistemas, contribuindo para a melhoria contínua do desempenho e da qualidade dos sistemas da empresa.</div>",
             "company": "Intelliway"

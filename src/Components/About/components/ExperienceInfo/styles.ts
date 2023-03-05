@@ -17,6 +17,7 @@ export const ExperienceCard = styled('div', {
 
   hr: {
     marginTop: '1.5rem',
+    marginBottom: '1.5rem',
     opacity: 0.2,
   },
 
