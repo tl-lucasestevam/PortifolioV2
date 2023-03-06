@@ -38,8 +38,8 @@
     "ExperienceInfo": [
         {
             "period": "Jan 2023 - Current",
-            "title": "Intern",
-            "description": "<div>During my internship at Intelliway, I had the opportunity to work as an AI developer in the company's technology division. Some of the main activities I carried out included:</div> <div>- Building scalable and performant Rest API's using Node.js</div> <div>- Developing interaction flows with chatbots using IBM Watson</div><div>- Modeling and programming for databases, identifying entities and relationships between them to build efficient information systems</div><div>- Working in an Agile and DevOps environment, which allowed me to gain experience in iterative and collaborative software development methodologies</div <div>- Creating new features and maintaining systems, contributing to the continuous improvement of the company's systems' performance and quality.</div>",
+            "title": "Software Developer",
+            "description": "<div>Full Stack Developer, part of the R&amp;D division of Audaces 360 products. Some of the main activities performed include:</div><div>- Development of desktop applications using the Electron framework, applying advanced programming techniques to ensure efficient and secure communication between different parts of the application, as well as taking advantage of native features of operating systems to create performant and scalable applications.</div><div>- Development of intuitive and reactive interfaces using React, employing advanced concepts of functional programming and virtual DOM to build modern and interactive interfaces with reusable components.</div><div>- Development of performant and scalable APIs using Node.js, utilizing frameworks such as Express to ensure scalability and security of the systems.</div>",
             "company": "Audaces"
         },
         {

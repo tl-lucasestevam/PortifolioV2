@@ -9,7 +9,7 @@ import {
   ToggleItem,
 } from './styles'
 
-import BorderSvg from '../../assets/border.svg'
+import BorderSvg from '../../assets/border2.png'
 
 import { useState } from 'react'
 import { useTranslation } from 'next-i18next'

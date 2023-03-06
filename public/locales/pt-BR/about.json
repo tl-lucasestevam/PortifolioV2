@@ -33,8 +33,8 @@
     "ExperienceInfo": [
         {
             "period": "Jan 2023 - Atual",
-            "title": "Desenvolvedor Full-Stack",
-            "description": "<div>Durante meu estágio na Intelliway, tive a oportunidade de trabalhar como desenvolvedor de IA na divisão de tecnologia da empresa. Algumas das principais atividades que exercia incluíam:</div> <div>- Construção de Rest API's escalaveis e performativas utilizando Node.js</div> <div>- Desenvolvimento de fluxos de interação com chatbots utilizando IBM Watson</div> <div>- Modelagem e programação para banco de dados, identificando entidades e relacionamentos entre elas para a construção de sistemas de informação eficientes</div> <div>- Trabalho em ambiente Ágil e DevOps, o que me permitiu adquirir experiência em metodologias de desenvolvimento de software iterativas e colaborativas</div> <div>- Criação de novas funcionalidades e manutenção de sistemas, contribuindo para a melhoria contínua do desempenho e da qualidade dos sistemas da empresa.</div>",
+            "title": "Desenvolvedor de Software",
+            "description": "<div>Desenvolvedor Full Stack, fazendo parte da divisão de P&amp;D dos produtos Audaces 360. Algumas das principais atividades exercidas:</div><div>- Desenvolvimento de aplicações desktop com o framework Electron, aplicando técnicas avançadas de programação para garantir comunicação eficiente e segura entre as partes do aplicativo, além de aproveitar as funcionalidades nativas dos sistemas operacionais para criar aplicações performáticas e escaláveis.</div><div>- Desenvolvimento de interfaces intuitivas e reativas com o React, utilizando conceitos avançados de programação funcional e virtual DOM para construir interfaces modernas e interativas, com componentes reutilizáveis.</div><div>- Desenvolvimento de APIs performáticas e escaláveis com Node.js, utilizando frameworks como o Express para garantir escalabilidade e segurança dos sistemas.</div>",
             "company": "Audaces"
         },
         {

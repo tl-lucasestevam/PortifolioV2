@@ -57,7 +57,9 @@ export const ImageSide = styled('div', {
 })
 
 export const Shape = styled('div', {
-  display: 'block',
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
   width: 422,
   height: 486,
   borderRadius: 20,
