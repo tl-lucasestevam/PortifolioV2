@@ -1,6 +1,6 @@
 {
     "Portfolio": "Portfólio",
-    "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit fames turpis pretium bibendum nisl est sagittis aliquam pretium nunc.",
+    "Description": "Bem-vindo(a) à minha sessão de portfólio! Aqui, você encontrará exemplos de projetos em que trabalhei como programador",
     "Visit Website": "Visitar Site",
     "Visit Github": "Visitar Github",
 
@@ -25,7 +25,7 @@
             "color": "#1A75E8"
         },            
         {
-            "title": "Household garbage sales app",
+            "title": "Aplicativo de venda de lixo doméstico",
             "shortDescription":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit fames turpis pretium bibendum nisl est sagittis aliquam pretium nunc.",
             "client": "Cicle",
             "services": "App Mobile",

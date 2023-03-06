@@ -32,7 +32,7 @@ export default function Projects() {
   return (
     <DefaultLayout>
       <Head>
-        <title>David Augusto | Projects</title>
+        <title>David Augusto | {translate('Portfolio')}</title>
       </Head>
       <ProjectsContainer className="container">
         <IntroSection>
