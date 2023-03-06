@@ -1,5 +1,7 @@
 {
     "Title": "I’m David, a <span>Web Developer</span>",
+    "TitleResponsive": "I’m David, a <span>Web Developer</span>",
+
     "Description": "Welcome! It's a pleasure to have you here. I am a full-stack developer passionate about technology, currently specializing in the JavaScript ecosystem.",
     "ButtonTitle": "See more"
 }

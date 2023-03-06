@@ -102,3 +102,19 @@ export const Squares = styled('div', {
     },
   },
 })
+
+export const Title = styled('h1', {
+  display: 'block',
+
+  '@media (max-width: 450px)': {
+    display: 'none',
+  },
+})
+
+export const TitleResponsive = styled('h1', {
+  display: 'none',
+
+  '@media (max-width: 450px)': {
+    display: 'block',
+  },
+})

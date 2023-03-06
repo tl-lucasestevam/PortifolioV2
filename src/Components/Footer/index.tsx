@@ -45,7 +45,7 @@ export function Footer() {
             </DescriptionSide>
           </LeftSide>
           <RightSide>
-            <LinkButton href="#">
+            <LinkButton href="mailto:davidribeiro086@gmail.com">
               <h1>{translateFooter('Get In Touch')}</h1>
               <ArrowRight size={53} weight="bold" color="#36C768" />
             </LinkButton>

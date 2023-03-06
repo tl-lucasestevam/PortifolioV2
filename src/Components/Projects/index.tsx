@@ -24,7 +24,7 @@ export function Projects() {
 
   const projet1 = getData('0')
   const projet2 = getData('1')
-  const projet3 = getData('2')
+  const projet3 = getData('3')
 
   return (
     <ProjectsContainer id="projects">

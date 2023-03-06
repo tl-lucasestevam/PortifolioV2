@@ -8,6 +8,8 @@ import {
   Shape,
   Squares,
   TextBox,
+  Title,
+  TitleResponsive,
 } from './styles'
 
 import reactLogo from '../../assets/react.svg'
@@ -30,7 +32,10 @@ export function Intro() {
       >
         <TextBox className="container">
           <div>
-            <h1>{parse(translate('Title'))}</h1>
+            <Title>{parse(translate('Title'))}</Title>
+            <TitleResponsive>
+              {parse(translate('TitleResponsive'))}
+            </TitleResponsive>
             <p>{translate('Description')}</p>
           </div>
 
