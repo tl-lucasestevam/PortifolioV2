@@ -2,57 +2,56 @@
     "Skills": "Skills",
     "Title": "Minha lista de tecnologias",
     "Description": "Tecnologias que estou continuamente estudando e aplicando em projetos de desenvolvimento.",
-
     "SkillsData": [
         {
             "name": "HTML/CSS",
             "imageUrl": "https://firebasestorage.googleapis.com/v0/b/payflow-ddaaf.appspot.com/o/html.svg?alt=media&token=7bc11cf6-139c-4752-a3ca-6303197a0c0c",
-            "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit leo qui"
+            "description": "HTML é uma linguagem de marcação utilizada na construção de páginas na Web"                                                                                                                                                                                                                                                                                                                                                                                              
         },
         {
             "name": "Javascript",
             "imageUrl": "https://firebasestorage.googleapis.com/v0/b/payflow-ddaaf.appspot.com/o/javascript.svg?alt=media&token=1ed4877c-2d89-440a-bc0f-875752dd64d9",
-            "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit leo qui"
+            "description": "JavaScript é uma linguagem de alto nível com tipagem dinâmica fraca"                                                                                                                                                                                                                                                                                                                                                                                                            
         },
         {
             "name": "Typescript",
             "imageUrl": "https://firebasestorage.googleapis.com/v0/b/payflow-ddaaf.appspot.com/o/typescript.svg?alt=media&token=52c84ae4-3940-42d6-8bbd-34b896317db8",
-            "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit leo qui"
+            "description": "Typescript é um superconjunto sintático que adiciona tipagem estática "                                                                                                                                                                                                                                                                                                                                                                                
         },
         {
             "name": "ReactJs",
             "imageUrl": "https://firebasestorage.googleapis.com/v0/b/payflow-ddaaf.appspot.com/o/react.svg?alt=media&token=c7cf3e78-5f58-432b-a67e-19d4f3ddeede",
-            "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit leo qui"
+            "description": "O React é uma biblioteca front-end JavaScript com foco em criar interfaces "                                                                                                                                                                                                                                                                                                                                                                                                     
         },
         {
             "name": "Next",
             "imageUrl": "https://firebasestorage.googleapis.com/v0/b/payflow-ddaaf.appspot.com/o/next.svg?alt=media&token=570a8a95-9dd6-4c2d-80db-9a23da08b4c2",
-            "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit leo qui"
+            "description": "Next.js é uma estrutura de desenvolvimento front-end React de código aberto "                                                                                                                                                                                                                                                                                                                                                                                                   
         },
         {
             "name": "NodeJs",
             "imageUrl": "https://firebasestorage.googleapis.com/v0/b/payflow-ddaaf.appspot.com/o/node.svg?alt=media&token=a0a2b78b-007f-4ee0-8135-591a123eeb31",
-            "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit leo qui"
+            "description": "Node.js permite a execução de códigos JavaScript fora de um navegador"                                                                                                                                                                                                                                                                                                                                                                                                       
         },
         {
             "name": "Jest",
             "imageUrl": "https://firebasestorage.googleapis.com/v0/b/payflow-ddaaf.appspot.com/o/Jest.svg?alt=media&token=ddaf642d-a1df-4084-9ec2-39521af2c05f",
-            "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit leo qui"
+            "description": "Jest é uma estrutura de teste de JavaScript com foco na simplicidade e suporte"                                                                                                                                                                                                                                                                                                                                                                                     
         },
         {
             "name": "MongoDB",
             "imageUrl": "https://firebasestorage.googleapis.com/v0/b/payflow-ddaaf.appspot.com/o/mongodb.svg?alt=media&token=86be6a14-51bc-451e-871d-b0716c9f1583",
-            "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit leo qui"
+            "description": "MongoDB é um software de banco de dados orientado a documentos livre"
         },
         {
             "name": "PostgreSQL",
             "imageUrl": "https://firebasestorage.googleapis.com/v0/b/payflow-ddaaf.appspot.com/o/postgress.svg?alt=media&token=eff62f74-8854-40b7-8d5e-6f103c9af499",
-            "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit leo qui"
+            "description": "PostgreSQL é um sistema gerenciador de banco de dados objeto-relacional"
         },
         {
             "name": "IBM Watson",
             "imageUrl": "https://firebasestorage.googleapis.com/v0/b/payflow-ddaaf.appspot.com/o/ibm%20watson.svg?alt=media&token=477401fc-921c-4b93-9ff3-34afd04c257c",
-            "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit leo qui"
+            "description": "IBM Watson é a plataforma de serviços cognitivos da IBM para negócios"
         }
     ]
 }

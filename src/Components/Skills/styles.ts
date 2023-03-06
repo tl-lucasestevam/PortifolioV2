@@ -51,6 +51,7 @@ export const CarrouselItem = styled('div', {
   padding: '3.75rem',
   minHeight: '17rem',
   borderRadius: 15,
+  justifyContent: 'space-between',
 
   '@media (max-width: 768px)': {
     flex: '0 0 50%',
