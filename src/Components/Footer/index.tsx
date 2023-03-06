@@ -21,6 +21,7 @@ import memoji from '../../assets/memoji.png'
 import Image from 'next/image'
 import { useTranslation } from 'next-i18next'
 import { ILink } from '../Header'
+import Link from 'next/link'
 
 export function Footer() {
   const { t: translateNavbar } = useTranslation('navbar')
@@ -66,8 +67,15 @@ export function Footer() {
           </ListItems>
 
           <ListIcons>
-            <Image src={LinkedinSvg} width="34" height="34" alt="" />
-            <Image src={GithubSvg} width="34" height="34" alt="" />
+            <Link
+              href="https://www.linkedin.com/in/davidaugustoo/"
+              target="_blank"
+            >
+              <Image src={LinkedinSvg} width="34" height="34" alt="" />
+            </Link>
+            <Link href="https://github.com/DavidAugustoo" target="_blank">
+              <Image src={GithubSvg} width="34" height="34" alt="" />
+            </Link>
           </ListIcons>
         </BottomSide>
       </FooterArea>
