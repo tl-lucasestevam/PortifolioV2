@@ -16,6 +16,8 @@ import {
 
 import LinkedinSvg from '../../assets/linkedin.svg'
 import GithubSvg from '../../assets/github.svg'
+import memoji from '../../assets/memoji.png'
+
 import Image from 'next/image'
 import { useTranslation } from 'next-i18next'
 import { ILink } from '../Header'
@@ -34,7 +36,9 @@ export function Footer() {
       <FooterArea className="container">
         <TopSide>
           <LeftSide>
-            <Avatar></Avatar>
+            <Avatar>
+              <Image src={memoji} alt="" width={86} height={94} />
+            </Avatar>
             <DescriptionSide>
               <h1>David Augusto</h1>
               <h3>{translateFooter('Web Developer')}</h3>

@@ -32,7 +32,9 @@ export const LeftSide = styled('footer', {
 })
 
 export const Avatar = styled('footer', {
-  display: 'block',
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
   width: '139px',
   height: '139px',
   backgroundColor: '$gray600',

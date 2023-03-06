@@ -12,6 +12,7 @@ import {
 
 import reactLogo from '../../assets/react.svg'
 import nodeLogo from '../../assets/node.svg'
+import memoji from '../../assets/memoji.png'
 import { useTranslation } from 'next-i18next'
 import parse from 'html-react-parser'
 import Link from 'next/link'
@@ -50,9 +51,7 @@ export function Intro() {
           data-aos-easing="ease-in-out"
         >
           <Image
-            src="
-            https://s3-alpha-sig.figma.com/img/13ac/c9c2/19b83506ae80ef2b1b373f92dadae88c?Expires=1679270400&Signature=TGAKTSA~YOvsygjOliezNqaFQLnTTSKw4US~a8sFOwY4BnxYMJE5Y-RR0SjV49j8JgB6KjWzjW4eLHlEMdEImg8bInFkpgXqT9r9-Ib1dpxxeaQ5VLr4z8SoaK3MTuN5XPYlGEMU2l9mkJZWoWTp~qM5Dn-u5JTkKOBCqEzqKf4c3ZhNaqTC0bhn0jq00WXTDebQkdF7xnPhpY-2ELDbvUYKJP5YXu0kB5lRkyNgrE1UHOlAPJBnX3mD1oKM5xb0XchkHZ9tvvVj0R0XyZ9Tbm8axJ3e0bNdcw8BT6~M9VI8MVYJDZ~LpFqUYxtB4DmRcmdlhGRCG9PmJllajy3MMA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4
-  "
+            src={memoji}
             width={221}
             height={242}
             data-aos="fade-up"
